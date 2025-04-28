@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: qsthw_api
+Description: qsthw_api library
+Version: 1.0.0
+Libs: -L${libdir} -llibqtisoundtriggerhw
+Cflags: -I${includedir}/mm-audio/qsthw_api

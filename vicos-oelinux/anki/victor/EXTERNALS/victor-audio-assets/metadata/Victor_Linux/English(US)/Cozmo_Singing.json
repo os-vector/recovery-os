@@ -1,0 +1,1841 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Victor_Linux",
+  "BasePlatform": "Android",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\",
+   "SourceFilesRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\.cache\\Victor_Linux\\",
+   "SoundBanksRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Victor_Linux\\English(US)\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Victor_Linux\\"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3988466513",
+    "GUID": "{38553F4D-4919-4A3A-A748-C0A43BF2C2E7}",
+    "Language": "English(US)",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Cozmo_Singing",
+    "ShortName": "Cozmo_Singing",
+    "Path": "English(US)\\Cozmo_Singing.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "819632272",
+      "Name": "Play__Robot_VO__Cozmo_Singing_100bpm",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Cozmo_Singing_100bpm",
+      "GUID": "{26592A4C-46E7-462B-9197-A6E1755884F9}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3805821586",
+      "Name": "Play__Robot_VO__Cozmo_Singing_120bpm",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Cozmo_Singing_120bpm",
+      "GUID": "{5253EB25-40BC-4E6F-8C88-1D0755567495}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3519620195",
+      "Name": "Play__Robot_VO__Cozmo_Singing_80bpm",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Cozmo_Singing_80bpm",
+      "GUID": "{F570A508-6E6A-41AB-AB22-94D638CE5B40}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "2007174956",
+      "Name": "Play__Robot_VO__Singing_Getin_1",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Singing_Getin_1",
+      "GUID": "{319BD123-D116-4FA1-A954-60C157D63A21}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.693268",
+      "DurationMax": "0.927023"
+     },
+     {
+      "Id": "2007174959",
+      "Name": "Play__Robot_VO__Singing_Getin_2",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Singing_Getin_2",
+      "GUID": "{C81AD262-7A52-4C84-A9D6-F6D3D62F28BF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.885019",
+      "DurationMax": "1.143023"
+     },
+     {
+      "Id": "2007174958",
+      "Name": "Play__Robot_VO__Singing_Getin_3",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Play__Robot_VO__Singing_Getin_3",
+      "GUID": "{D0710BA8-D2D9-4BBE-95D7-874C37EBEA71}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.753544",
+      "DurationMax": "0.991000"
+     },
+     {
+      "Id": "3704466058",
+      "Name": "Stop__Robot_VO__Cozmo_Singing_Stop",
+      "ObjectPath": "\\Events\\Cozmo_Robot_Voice\\Robot_Vo__Singing\\Stop__Robot_VO__Cozmo_Singing_Stop",
+      "GUID": "{8B101C86-19C9-4FD0-B14B-F5C095B3B933}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "ReferencedStreamedFiles": [
+     {
+      "Id": "1887412",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_F1591D63.wem"
+     },
+     {
+      "Id": "10429229",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_03_WM_43DFF992.wem"
+     },
+     {
+      "Id": "12877057",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_02_WM_ED218236.wem"
+     },
+     {
+      "Id": "27740573",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_3BC6F68F.wem"
+     },
+     {
+      "Id": "34992169",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_03_WM_2398F478.wem"
+     },
+     {
+      "Id": "45664262",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_F0C843A3.wem"
+     },
+     {
+      "Id": "47850628",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_6CCFC3DA.wem"
+     },
+     {
+      "Id": "52003741",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_326422CD.wem"
+     },
+     {
+      "Id": "81750971",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_02_WM_92F2D408.wem"
+     },
+     {
+      "Id": "85449665",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_8B5A9C9A.wem"
+     },
+     {
+      "Id": "89808013",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_01_WM_AB0F6732.wem"
+     },
+     {
+      "Id": "90905654",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_4A64EBB0.wem"
+     },
+     {
+      "Id": "91793269",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_01_WM_E00D433F.wem"
+     },
+     {
+      "Id": "112008643",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_01_WM_0CFADBDC.wem"
+     },
+     {
+      "Id": "133127282",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_02_WM_2FC2ED81.wem"
+     },
+     {
+      "Id": "135885705",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_4F1DFE8A.wem"
+     },
+     {
+      "Id": "136701791",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_03_WM_F2B360F7.wem"
+     },
+     {
+      "Id": "139933283",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_03_WM_195DF780.wem"
+     },
+     {
+      "Id": "148285695",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_02_WM_9BDC9199.wem"
+     },
+     {
+      "Id": "165805702",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_01_WM_B2F5A5C6.wem"
+     },
+     {
+      "Id": "176501133",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_02_WM_5B4A2845.wem"
+     },
+     {
+      "Id": "178101840",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_1E2B2E15.wem"
+     },
+     {
+      "Id": "183967431",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_03_WM_4A0B2041.wem"
+     },
+     {
+      "Id": "189864516",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_02A7B757.wem"
+     },
+     {
+      "Id": "204916774",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_01_WM_53B86AD1.wem"
+     },
+     {
+      "Id": "213551102",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_0BE7A56B.wem"
+     },
+     {
+      "Id": "225777242",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_02_WM_8FFF2A92.wem"
+     },
+     {
+      "Id": "226514782",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_7AA34BBD.wem"
+     },
+     {
+      "Id": "232359526",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_DB80F7BD.wem"
+     },
+     {
+      "Id": "246833008",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_BF63C188.wem"
+     },
+     {
+      "Id": "246944941",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_48E7ABE4.wem"
+     },
+     {
+      "Id": "253381572",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_01_WM_8A2828EA.wem"
+     },
+     {
+      "Id": "280638271",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_624D54E0.wem"
+     },
+     {
+      "Id": "287022016",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_01_WM_A9E47A93.wem"
+     },
+     {
+      "Id": "297252380",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_D4B00AF9.wem"
+     },
+     {
+      "Id": "301534574",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_02_WM_2A36BC65.wem"
+     },
+     {
+      "Id": "306714218",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_B9EC317E.wem"
+     },
+     {
+      "Id": "314220657",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_03_WM_10F4AE82.wem"
+     },
+     {
+      "Id": "314248904",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_A6F7412C.wem"
+     },
+     {
+      "Id": "325463770",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_B19DBEEF.wem"
+     },
+     {
+      "Id": "326780340",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_02_WM_99201C56.wem"
+     },
+     {
+      "Id": "350471231",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_9AFFC78A.wem"
+     },
+     {
+      "Id": "352876753",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_598984A2.wem"
+     },
+     {
+      "Id": "362776130",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_0B269D33.wem"
+     },
+     {
+      "Id": "370133342",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_03_WM_38F4DED3.wem"
+     },
+     {
+      "Id": "374454329",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_03_WM_0CDB658A.wem"
+     },
+     {
+      "Id": "383926861",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_17380DF4.wem"
+     },
+     {
+      "Id": "387845078",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_02_WM_F0B9447A.wem"
+     },
+     {
+      "Id": "447861033",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_03_WM_D0A4074E.wem"
+     },
+     {
+      "Id": "452623763",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_01_WM_B36AD16C.wem"
+     },
+     {
+      "Id": "456082287",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_01_WM_04C80B6A.wem"
+     },
+     {
+      "Id": "456167551",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_1A6C84AA.wem"
+     },
+     {
+      "Id": "468508748",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_02_WM_C6D2DE30.wem"
+     },
+     {
+      "Id": "473354865",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_03_WM_C0A50F33.wem"
+     },
+     {
+      "Id": "482397336",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_03_WM_70A0480F.wem"
+     },
+     {
+      "Id": "495030842",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_E74C59AB.wem"
+     },
+     {
+      "Id": "496786915",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_03_WM_ED897193.wem"
+     },
+     {
+      "Id": "504029856",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_F7267180.wem"
+     },
+     {
+      "Id": "516226282",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_E961F8B2.wem"
+     },
+     {
+      "Id": "522973929",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_28CDA25B.wem"
+     },
+     {
+      "Id": "530190199",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_F2C90446.wem"
+     },
+     {
+      "Id": "531730679",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_01_WM_1399CDF5.wem"
+     },
+     {
+      "Id": "537765525",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_03_WM_F571BB07.wem"
+     },
+     {
+      "Id": "569456906",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_28D8E99F.wem"
+     },
+     {
+      "Id": "598975728",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_02_WM_3110D6B2.wem"
+     },
+     {
+      "Id": "613390189",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_01_WM_7463C99F.wem"
+     },
+     {
+      "Id": "627108388",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_92933C1E.wem"
+     },
+     {
+      "Id": "631808131",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_40BE3787.wem"
+     },
+     {
+      "Id": "639338617",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_D412F50B.wem"
+     },
+     {
+      "Id": "643247489",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_16068504.wem"
+     },
+     {
+      "Id": "648001272",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_A97232A8.wem"
+     },
+     {
+      "Id": "651861256",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_53069740.wem"
+     },
+     {
+      "Id": "653543602",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_2A58D0D4.wem"
+     },
+     {
+      "Id": "654663227",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_A36A6565.wem"
+     },
+     {
+      "Id": "665544181",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_01_WM_B8457D34.wem"
+     },
+     {
+      "Id": "670834988",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_0A8ABF67.wem"
+     },
+     {
+      "Id": "678983453",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_02_WM_3D17AD7B.wem"
+     },
+     {
+      "Id": "712222227",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_DA60BA68.wem"
+     },
+     {
+      "Id": "735158718",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_1DA22CC0.wem"
+     },
+     {
+      "Id": "736051801",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_5C7B30DC.wem"
+     },
+     {
+      "Id": "759078686",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_357C78B1.wem"
+     },
+     {
+      "Id": "768661382",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_EABF802F.wem"
+     },
+     {
+      "Id": "795919431",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_02_WM_62AE0522.wem"
+     },
+     {
+      "Id": "806189760",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_02_WM_4E7F3395.wem"
+     },
+     {
+      "Id": "811999133",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_01_WM_76E86573.wem"
+     },
+     {
+      "Id": "817693800",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_01_WM_2352A458.wem"
+     },
+     {
+      "Id": "830382318",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_02_WM_0250B97E.wem"
+     },
+     {
+      "Id": "832364645",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_89D18633.wem"
+     },
+     {
+      "Id": "838567493",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_700D01D4.wem"
+     },
+     {
+      "Id": "842797044",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_03_WM_3FEF20CF.wem"
+     },
+     {
+      "Id": "867962065",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_9CA29D10.wem"
+     },
+     {
+      "Id": "870302794",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_02_WM_72278D98.wem"
+     },
+     {
+      "Id": "903601845",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_02_WM_2B2563D5.wem"
+     },
+     {
+      "Id": "917175238",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_AEA6CDE8.wem"
+     },
+     {
+      "Id": "917280422",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_01_WM_F50F15B1.wem"
+     },
+     {
+      "Id": "924828508",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_03_WM_7DD8D315.wem"
+     },
+     {
+      "Id": "929875403",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_01_WM_424D2C92.wem"
+     },
+     {
+      "Id": "933648162",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_01_WM_60E09E30.wem"
+     },
+     {
+      "Id": "957628707",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_03_WM_548D2CBB.wem"
+     },
+     {
+      "Id": "974538327",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_3123FA28.wem"
+     },
+     {
+      "Id": "977280851",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_01_WM_9FE25441.wem"
+     },
+     {
+      "Id": "979554697",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_03_WM_2014D0A2.wem"
+     },
+     {
+      "Id": "981078971",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_01_WM_9D901C47.wem"
+     },
+     {
+      "Id": "997729011",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_02_WM_8353044B.wem"
+     },
+     {
+      "Id": "1009403048",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_229DC352.wem"
+     },
+     {
+      "Id": "1013342711",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_F6D5C719.wem"
+     },
+     {
+      "Id": "1015167262",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_03_WM_664DEE0F.wem"
+     },
+     {
+      "Id": "1032045053",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_B844467F.wem"
+     },
+     {
+      "Id": "1036586060",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_02_WM_D7E1966D.wem"
+     },
+     {
+      "Id": "1040868685",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_477B88A6.wem"
+     },
+     {
+      "Id": "1059192046",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_03_WM_6AABCD15.wem"
+     },
+     {
+      "Id": "1060726593",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_01_WM_84E14492.wem"
+     },
+     {
+      "Id": "1063271033",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_02_WM_6217808F.wem"
+     },
+     {
+      "Id": "1065664274",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_03_WM_788C7F9B.wem"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "1887412",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_F1591D63.wem",
+      "PrefetchSize": "2279"
+     },
+     {
+      "Id": "2087930",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Oh_My_Darlin.mid",
+      "Path": "SFX\\CZM_Mid_Oh_My_Darlin_00000000.wem"
+     },
+     {
+      "Id": "10429229",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_03_WM_43DFF992.wem",
+      "PrefetchSize": "2687"
+     },
+     {
+      "Id": "12877057",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_02_WM_ED218236.wem",
+      "PrefetchSize": "2690"
+     },
+     {
+      "Id": "19278468",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Hush_Little_Baby.mid",
+      "Path": "SFX\\CZM_Mid_Hush_Little_Baby_00000000.wem"
+     },
+     {
+      "Id": "26440277",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Cozmambo.mid",
+      "Path": "SFX\\CZM_Mid_Cozmambo_00000000.wem"
+     },
+     {
+      "Id": "26763440",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Twinkle_Twinkle.mid",
+      "Path": "SFX\\CZM_Mid_Twinkle_Twinkle_00000000.wem"
+     },
+     {
+      "Id": "27740573",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_3BC6F68F.wem",
+      "PrefetchSize": "2422"
+     },
+     {
+      "Id": "34992169",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_03_WM_2398F478.wem",
+      "PrefetchSize": "3170"
+     },
+     {
+      "Id": "45664262",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_F0C843A3.wem",
+      "PrefetchSize": "2878"
+     },
+     {
+      "Id": "47850628",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_6CCFC3DA.wem",
+      "PrefetchSize": "2184"
+     },
+     {
+      "Id": "52003741",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_326422CD.wem",
+      "PrefetchSize": "2607"
+     },
+     {
+      "Id": "52237197",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Mary_Had_Little_Lamb.mid",
+      "Path": "SFX\\CZM_Mid_Mary_Had_Little_Lamb_00000000.wem"
+     },
+     {
+      "Id": "81750971",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_02_WM_92F2D408.wem",
+      "PrefetchSize": "2361"
+     },
+     {
+      "Id": "83703047",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Can_Can_2.mid",
+      "Path": "SFX\\CZM_Mid_Can_Can_2_00000000.wem"
+     },
+     {
+      "Id": "85449665",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_8B5A9C9A.wem",
+      "PrefetchSize": "2722"
+     },
+     {
+      "Id": "89808013",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_01_WM_AB0F6732.wem",
+      "PrefetchSize": "2268"
+     },
+     {
+      "Id": "90905654",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_4A64EBB0.wem",
+      "PrefetchSize": "2144"
+     },
+     {
+      "Id": "91793269",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_01_WM_E00D433F.wem",
+      "PrefetchSize": "2797"
+     },
+     {
+      "Id": "110795270",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Row_Your_Boat.mid",
+      "Path": "SFX\\CZM_Mid_Row_Your_Boat_00000000.wem"
+     },
+     {
+      "Id": "112008643",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_01_WM_0CFADBDC.wem",
+      "PrefetchSize": "2426"
+     },
+     {
+      "Id": "133127282",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_02_WM_2FC2ED81.wem",
+      "PrefetchSize": "2960"
+     },
+     {
+      "Id": "135885705",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_4F1DFE8A.wem",
+      "PrefetchSize": "2599"
+     },
+     {
+      "Id": "136701791",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_03_WM_F2B360F7.wem",
+      "PrefetchSize": "2999"
+     },
+     {
+      "Id": "139933283",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_03_WM_195DF780.wem",
+      "PrefetchSize": "2288"
+     },
+     {
+      "Id": "148285695",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_02_WM_9BDC9199.wem",
+      "PrefetchSize": "2375"
+     },
+     {
+      "Id": "152193259",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Pop_Goes_The_Weasel.mid",
+      "Path": "SFX\\CZM_Mid_Pop_Goes_The_Weasel_00000000.wem"
+     },
+     {
+      "Id": "165805702",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_01_WM_B2F5A5C6.wem",
+      "PrefetchSize": "2258"
+     },
+     {
+      "Id": "169944346",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Wild_About_Harry.mid",
+      "Path": "SFX\\CZM_Mid_Wild_About_Harry_00000000.wem"
+     },
+     {
+      "Id": "176501133",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_02_WM_5B4A2845.wem",
+      "PrefetchSize": "2321"
+     },
+     {
+      "Id": "178101840",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_1E2B2E15.wem",
+      "PrefetchSize": "2266"
+     },
+     {
+      "Id": "179782611",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Hello_My_Baby.mid",
+      "Path": "SFX\\CZM_Mid_Hello_My_Baby_00000000.wem"
+     },
+     {
+      "Id": "183967431",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_03_WM_4A0B2041.wem",
+      "PrefetchSize": "2737"
+     },
+     {
+      "Id": "189864516",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_02A7B757.wem",
+      "PrefetchSize": "2585"
+     },
+     {
+      "Id": "202485839",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Muss_I_Denn.mid",
+      "Path": "SFX\\CZM_Mid_Muss_I_Denn_00000000.wem"
+     },
+     {
+      "Id": "204916774",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_01_WM_53B86AD1.wem",
+      "PrefetchSize": "2833"
+     },
+     {
+      "Id": "213551102",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_0BE7A56B.wem",
+      "PrefetchSize": "2292"
+     },
+     {
+      "Id": "216476034",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Camptown.mid",
+      "Path": "SFX\\CZM_Mid_Camptown_00000000.wem"
+     },
+     {
+      "Id": "225280179",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Sakura.mid",
+      "Path": "SFX\\CZM_Mid_Sakura_00000000.wem"
+     },
+     {
+      "Id": "225777242",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_02_WM_8FFF2A92.wem",
+      "PrefetchSize": "2933"
+     },
+     {
+      "Id": "226514782",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_7AA34BBD.wem",
+      "PrefetchSize": "2870"
+     },
+     {
+      "Id": "232359526",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_DB80F7BD.wem",
+      "PrefetchSize": "2195"
+     },
+     {
+      "Id": "246833008",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_BF63C188.wem",
+      "PrefetchSize": "2831"
+     },
+     {
+      "Id": "246944941",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_48E7ABE4.wem",
+      "PrefetchSize": "2987"
+     },
+     {
+      "Id": "253381572",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_01_WM_8A2828EA.wem",
+      "PrefetchSize": "2267"
+     },
+     {
+      "Id": "279810227",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Buffalo_Gals.mid",
+      "Path": "SFX\\CZM_Mid_Buffalo_Gals_00000000.wem"
+     },
+     {
+      "Id": "280638271",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_624D54E0.wem",
+      "PrefetchSize": "2603"
+     },
+     {
+      "Id": "287022016",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_01_WM_A9E47A93.wem",
+      "PrefetchSize": "2248"
+     },
+     {
+      "Id": "297252380",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_D4B00AF9.wem",
+      "PrefetchSize": "2608"
+     },
+     {
+      "Id": "301534574",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_02_WM_2A36BC65.wem",
+      "PrefetchSize": "2750"
+     },
+     {
+      "Id": "306714218",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_B9EC317E.wem",
+      "PrefetchSize": "2612"
+     },
+     {
+      "Id": "311130337",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Danny_Boy.mid",
+      "Path": "SFX\\CZM_Mid_Danny_Boy_00000000.wem"
+     },
+     {
+      "Id": "314220657",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_03_WM_10F4AE82.wem",
+      "PrefetchSize": "2905"
+     },
+     {
+      "Id": "314248904",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_A6F7412C.wem",
+      "PrefetchSize": "2822"
+     },
+     {
+      "Id": "325463770",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_B19DBEEF.wem",
+      "PrefetchSize": "2591"
+     },
+     {
+      "Id": "326780340",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_02_WM_99201C56.wem",
+      "PrefetchSize": "2981"
+     },
+     {
+      "Id": "339547639",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Toccata.mid",
+      "Path": "SFX\\CZM_Mid_Toccata_00000000.wem"
+     },
+     {
+      "Id": "346225724",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Entry_Of_The_Gladiators.mid",
+      "Path": "SFX\\CZM_Mid_Entry_Of_The_Gladiators_00000000.wem"
+     },
+     {
+      "Id": "350471231",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_9AFFC78A.wem",
+      "PrefetchSize": "2361"
+     },
+     {
+      "Id": "352876753",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_598984A2.wem",
+      "PrefetchSize": "3234"
+     },
+     {
+      "Id": "362776130",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_0B269D33.wem",
+      "PrefetchSize": "2591"
+     },
+     {
+      "Id": "370133342",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_03_WM_38F4DED3.wem",
+      "PrefetchSize": "2708"
+     },
+     {
+      "Id": "374454329",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_03_WM_0CDB658A.wem",
+      "PrefetchSize": "2776"
+     },
+     {
+      "Id": "383926861",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_17380DF4.wem",
+      "PrefetchSize": "2620"
+     },
+     {
+      "Id": "387845078",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_02_WM_F0B9447A.wem",
+      "PrefetchSize": "2753"
+     },
+     {
+      "Id": "392350835",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_London_Bridge.mid",
+      "Path": "SFX\\CZM_Mid_London_Bridge_00000000.wem"
+     },
+     {
+      "Id": "413817215",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Can_Can_1.mid",
+      "Path": "SFX\\CZM_Mid_Can_Can_1_00000000.wem"
+     },
+     {
+      "Id": "428300834",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Habanera.mid",
+      "Path": "SFX\\CZM_Mid_Habanera_00000000.wem"
+     },
+     {
+      "Id": "447861033",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_03_WM_D0A4074E.wem",
+      "PrefetchSize": "2526"
+     },
+     {
+      "Id": "452623763",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_01_WM_B36AD16C.wem",
+      "PrefetchSize": "2912"
+     },
+     {
+      "Id": "454053824",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Beautiful_Dreamer.mid",
+      "Path": "SFX\\CZM_Mid_Beautiful_Dreamer_00000000.wem"
+     },
+     {
+      "Id": "456082287",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_01_WM_04C80B6A.wem",
+      "PrefetchSize": "2301"
+     },
+     {
+      "Id": "456167551",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_1A6C84AA.wem",
+      "PrefetchSize": "2615"
+     },
+     {
+      "Id": "468508748",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_02_WM_C6D2DE30.wem",
+      "PrefetchSize": "2754"
+     },
+     {
+      "Id": "473354865",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_03_WM_C0A50F33.wem",
+      "PrefetchSize": "2227"
+     },
+     {
+      "Id": "482397336",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_03_WM_70A0480F.wem",
+      "PrefetchSize": "2486"
+     },
+     {
+      "Id": "495030842",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_E74C59AB.wem",
+      "PrefetchSize": "2316"
+     },
+     {
+      "Id": "496786915",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_03_WM_ED897193.wem",
+      "PrefetchSize": "2786"
+     },
+     {
+      "Id": "504029856",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_F7267180.wem",
+      "PrefetchSize": "2823"
+     },
+     {
+      "Id": "515006234",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Happy_Birthday.mid",
+      "Path": "SFX\\CZM_Mid_Happy_Birthday_00000000.wem"
+     },
+     {
+      "Id": "516226282",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_E961F8B2.wem",
+      "PrefetchSize": "2379"
+     },
+     {
+      "Id": "516341845",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Yellow_Rose.mid",
+      "Path": "SFX\\CZM_Mid_Yellow_Rose_00000000.wem"
+     },
+     {
+      "Id": "521837818",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Farmer_In_The_Dell.mid",
+      "Path": "SFX\\CZM_Mid_Farmer_In_The_Dell_00000000.wem"
+     },
+     {
+      "Id": "522973929",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_28CDA25B.wem",
+      "PrefetchSize": "2410"
+     },
+     {
+      "Id": "530190199",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_F2C90446.wem",
+      "PrefetchSize": "2864"
+     },
+     {
+      "Id": "531730679",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_01_WM_1399CDF5.wem",
+      "PrefetchSize": "2762"
+     },
+     {
+      "Id": "532579095",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Silvery_Moon.mid",
+      "Path": "SFX\\CZM_Mid_Silvery_Moon_00000000.wem"
+     },
+     {
+      "Id": "537765525",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_03_WM_F571BB07.wem",
+      "PrefetchSize": "2396"
+     },
+     {
+      "Id": "541759050",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Mulberry_Bush.mid",
+      "Path": "SFX\\CZM_Mid_Mulberry_Bush_00000000.wem"
+     },
+     {
+      "Id": "569456906",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_28D8E99F.wem",
+      "PrefetchSize": "2475"
+     },
+     {
+      "Id": "598975728",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_02_WM_3110D6B2.wem",
+      "PrefetchSize": "2330"
+     },
+     {
+      "Id": "613390189",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_01_WM_7463C99F.wem",
+      "PrefetchSize": "2680"
+     },
+     {
+      "Id": "615137154",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Beethovens_5th.mid",
+      "Path": "SFX\\CZM_Mid_Beethovens_5th_00000000.wem"
+     },
+     {
+      "Id": "623877833",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Mountain_King.mid",
+      "Path": "SFX\\CZM_Mid_Mountain_King_00000000.wem"
+     },
+     {
+      "Id": "627108388",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_92933C1E.wem",
+      "PrefetchSize": "2747"
+     },
+     {
+      "Id": "631808131",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_40BE3787.wem",
+      "PrefetchSize": "2375"
+     },
+     {
+      "Id": "639338617",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_D412F50B.wem",
+      "PrefetchSize": "2309"
+     },
+     {
+      "Id": "643247489",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_16068504.wem",
+      "PrefetchSize": "2169"
+     },
+     {
+      "Id": "645385389",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Water_Music.mid",
+      "Path": "SFX\\CZM_Mid_Water_Music_00000000.wem"
+     },
+     {
+      "Id": "648001272",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_A97232A8.wem",
+      "PrefetchSize": "2251"
+     },
+     {
+      "Id": "651861256",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_53069740.wem",
+      "PrefetchSize": "2398"
+     },
+     {
+      "Id": "653543602",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_01_WM_2A58D0D4.wem",
+      "PrefetchSize": "2956"
+     },
+     {
+      "Id": "654585462",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Ode_To_Joy.mid",
+      "Path": "SFX\\CZM_Mid_Ode_To_Joy_00000000.wem"
+     },
+     {
+      "Id": "654663227",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_A36A6565.wem",
+      "PrefetchSize": "2387"
+     },
+     {
+      "Id": "662401081",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Muffin_Man.mid",
+      "Path": "SFX\\CZM_Mid_Muffin_Man_00000000.wem"
+     },
+     {
+      "Id": "665544181",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_01_WM_B8457D34.wem",
+      "PrefetchSize": "2316"
+     },
+     {
+      "Id": "670834988",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_0A8ABF67.wem",
+      "PrefetchSize": "2118"
+     },
+     {
+      "Id": "675795107",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Moonlight_Bay.mid",
+      "Path": "SFX\\CZM_Mid_Moonlight_Bay_00000000.wem"
+     },
+     {
+      "Id": "678983453",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_02_WM_3D17AD7B.wem",
+      "PrefetchSize": "2800"
+     },
+     {
+      "Id": "695075721",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Aba_Daba.mid",
+      "Path": "SFX\\CZM_Mid_Aba_Daba_00000000.wem"
+     },
+     {
+      "Id": "700690312",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Bingo.mid",
+      "Path": "SFX\\CZM_Mid_Bingo_00000000.wem"
+     },
+     {
+      "Id": "712222227",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_03_WM_DA60BA68.wem",
+      "PrefetchSize": "2819"
+     },
+     {
+      "Id": "714880726",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Frere_Jacques.mid",
+      "Path": "SFX\\CZM_Mid_Frere_Jacques_00000000.wem"
+     },
+     {
+      "Id": "735158718",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_01_WM_1DA22CC0.wem",
+      "PrefetchSize": "2197"
+     },
+     {
+      "Id": "736051801",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_5C7B30DC.wem",
+      "PrefetchSize": "2414"
+     },
+     {
+      "Id": "758556061",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Turkey_In_The_Straw.mid",
+      "Path": "SFX\\CZM_Mid_Turkey_In_The_Straw_00000000.wem"
+     },
+     {
+      "Id": "759078686",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_357C78B1.wem",
+      "PrefetchSize": "2868"
+     },
+     {
+      "Id": "768661382",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_EABF802F.wem",
+      "PrefetchSize": "2337"
+     },
+     {
+      "Id": "795919431",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_02_WM_62AE0522.wem",
+      "PrefetchSize": "2384"
+     },
+     {
+      "Id": "806189760",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_02_WM_4E7F3395.wem",
+      "PrefetchSize": "2215"
+     },
+     {
+      "Id": "811999133",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_01_WM_76E86573.wem",
+      "PrefetchSize": "2261"
+     },
+     {
+      "Id": "817693800",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G#2_Vel2_01_WM_2352A458.wem",
+      "PrefetchSize": "2680"
+     },
+     {
+      "Id": "822966076",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_William_Tell.mid",
+      "Path": "SFX\\CZM_Mid_William_Tell_00000000.wem"
+     },
+     {
+      "Id": "829299222",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Yankee_Doodle.mid",
+      "Path": "SFX\\CZM_Mid_Yankee_Doodle_00000000.wem"
+     },
+     {
+      "Id": "830382318",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_02_WM_0250B97E.wem",
+      "PrefetchSize": "2353"
+     },
+     {
+      "Id": "832364645",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_89D18633.wem",
+      "PrefetchSize": "2244"
+     },
+     {
+      "Id": "838567493",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_700D01D4.wem",
+      "PrefetchSize": "2735"
+     },
+     {
+      "Id": "842797044",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_03_WM_3FEF20CF.wem",
+      "PrefetchSize": "2317"
+     },
+     {
+      "Id": "845901247",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Take_Me_Out_Ballgame.mid",
+      "Path": "SFX\\CZM_Mid_Take_Me_Out_Ballgame_00000000.wem"
+     },
+     {
+      "Id": "847240382",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Pachebel_Canon.mid",
+      "Path": "SFX\\CZM_Mid_Pachebel_Canon_00000000.wem"
+     },
+     {
+      "Id": "867962065",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_02_WM_9CA29D10.wem",
+      "PrefetchSize": "2570"
+     },
+     {
+      "Id": "870302794",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C3_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C3_Vel2_02_WM_72278D98.wem",
+      "PrefetchSize": "2415"
+     },
+     {
+      "Id": "895876563",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Itsy_Bitsy_Spider.mid",
+      "Path": "SFX\\CZM_Mid_Itsy_Bitsy_Spider_00000000.wem"
+     },
+     {
+      "Id": "903601845",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_B2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_B2_Vel2_02_WM_2B2563D5.wem",
+      "PrefetchSize": "3117"
+     },
+     {
+      "Id": "917175238",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C2_Vel2_02_WM_AEA6CDE8.wem",
+      "PrefetchSize": "2602"
+     },
+     {
+      "Id": "917262254",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_La_Paloma.mid",
+      "Path": "SFX\\CZM_Mid_La_Paloma_00000000.wem"
+     },
+     {
+      "Id": "917280422",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F#2_Vel2_01_WM_F50F15B1.wem",
+      "PrefetchSize": "2707"
+     },
+     {
+      "Id": "924828508",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_03_WM_7DD8D315.wem",
+      "PrefetchSize": "2747"
+     },
+     {
+      "Id": "929875403",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_01_WM_424D2C92.wem",
+      "PrefetchSize": "2357"
+     },
+     {
+      "Id": "932013557",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Ta_Ra_Ra_Boom.mid",
+      "Path": "SFX\\CZM_Mid_Ta_Ra_Ra_Boom_00000000.wem"
+     },
+     {
+      "Id": "933648162",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A#2_Vel2_01_WM_60E09E30.wem",
+      "PrefetchSize": "2640"
+     },
+     {
+      "Id": "949611353",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Tisket_Tasket.mid",
+      "Path": "SFX\\CZM_Mid_Tisket_Tasket_00000000.wem"
+     },
+     {
+      "Id": "957628707",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_03_WM_548D2CBB.wem",
+      "PrefetchSize": "2330"
+     },
+     {
+      "Id": "974538327",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_01_WM_3123FA28.wem",
+      "PrefetchSize": "2739"
+     },
+     {
+      "Id": "977280851",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_01_WM_9FE25441.wem",
+      "PrefetchSize": "2629"
+     },
+     {
+      "Id": "979554697",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_03_WM_2014D0A2.wem",
+      "PrefetchSize": "2332"
+     },
+     {
+      "Id": "981078971",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_01_WM_9D901C47.wem",
+      "PrefetchSize": "2282"
+     },
+     {
+      "Id": "997729011",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_A2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_A2_Vel2_02_WM_8353044B.wem",
+      "PrefetchSize": "2805"
+     },
+     {
+      "Id": "1009403048",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_02_WM_229DC352.wem",
+      "PrefetchSize": "2872"
+     },
+     {
+      "Id": "1013342711",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_F6D5C719.wem",
+      "PrefetchSize": "2986"
+     },
+     {
+      "Id": "1015167262",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_G2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_G2_Vel2_03_WM_664DEE0F.wem",
+      "PrefetchSize": "2685"
+     },
+     {
+      "Id": "1032045053",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_F2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_F2_Vel2_03_WM_B844467F.wem",
+      "PrefetchSize": "3015"
+     },
+     {
+      "Id": "1036586060",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_02_WM_D7E1966D.wem",
+      "PrefetchSize": "2299"
+     },
+     {
+      "Id": "1040868685",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D2_Vel2_03_WM_477B88A6.wem",
+      "PrefetchSize": "2866"
+     },
+     {
+      "Id": "1052368863",
+      "Language": "SFX",
+      "ShortName": "CZM_Mid_Vivaldi_Spring.mid",
+      "Path": "SFX\\CZM_Mid_Vivaldi_Spring_00000000.wem"
+     },
+     {
+      "Id": "1059192046",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_C#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_C#2_Vel2_03_WM_6AABCD15.wem",
+      "PrefetchSize": "2124"
+     },
+     {
+      "Id": "1060726593",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_01_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_01_WM_84E14492.wem",
+      "PrefetchSize": "2860"
+     },
+     {
+      "Id": "1063271033",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_E2_Vel2_02_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_E2_Vel2_02_WM_6217808F.wem",
+      "PrefetchSize": "2321"
+     },
+     {
+      "Id": "1065664274",
+      "Language": "English(US)",
+      "ShortName": "Robot_VO__Singing_D#2_Vel2_03_WM.wav",
+      "Path": "Voices\\English(US)\\Robot_VO__Singing_D#2_Vel2_03_WM_788C7F9B.wem",
+      "PrefetchSize": "2733"
+     }
+    ]
+   }
+  ]
+ }
+}

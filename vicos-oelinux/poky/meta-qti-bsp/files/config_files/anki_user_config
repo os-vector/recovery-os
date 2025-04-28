@@ -1,0 +1,26 @@
+# canned_fs_config file for make_ext4fs
+#
+# This file defines ownership, permissions and capabilities of
+# of directories and files. It is passed to make_ext4fs via the -C param
+# as the final phase of creating the system image.
+#
+# For definitions of anki-specific users/groups see:
+# poky/meta-anki/recipes/anki-robot/victor.bb
+#
+# Daemons ownership and permissions
+# ================================
+usr/bin/ankibluetoothd      2904 2904 0750
+usr/bin/mm-anki-camera      2907 2907 0750
+
+anki                        2901 2901 0750
+anki/lib                    2901 2901 0750
+anki/data                   2901 2901 0750
+anki/etc                    2901 2901 0750
+anki/bin                    2901 2901 0750
+anki/bin/vic-robot          2902 2902 0750
+anki/bin/vic-anim           2903 2903 0750
+anki/bin/vic-engine         2903 2903 0750
+anki/bin/vic-switchboard    2905 2905 0750
+anki/bin/update-engine      2905 2905 0750
+anki/bin/diagnostics-logger 2905 2905 0750
+anki/bin/displayFaultCode   2903 2903 0750

@@ -1,0 +1,273 @@
+#VRML_SIM V7.3.0 utf8
+
+PROTO CozmoVizDisplay 
+[ 
+  # Resolution of incoming camera images.
+  # Set this to match IMG_STREAM_RES in cozmoConfig.h
+  field SFString streamResolution "QVGA"
+
+  field SFBool filterLogs FALSE
+  field SFBool colorizeStderrOutput FALSE
+  field SFInt32 accelPlotObjectId 0
+  field SFInt32 numBehaviorStackLines 8
+  field SFInt32 numVisionModeLines 8
+
+  field SFInt32 numDebugImageDisplays 0 # Vision debug displays in addition to the camera
+]
+{
+Supervisor {
+  
+  children [
+    Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_docking_display"
+      width 200
+      height 240
+    }
+
+
+    Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_viz_display"
+      width 400
+      height 300
+    }
+    
+    Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_mood_display"
+      width 450
+      height 150
+    }
+
+    DEF ACTIVE_OBJECT_DISPLAY Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_active_object_display"
+      width 400
+      height 100
+    }
+
+
+    DEF CUBE_ACCEL_DISPLAY Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_cube_accel_display"
+      width 450
+      height 150
+    }
+
+    
+    Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "cozmo_behavior_display"
+      width 450
+      height 150
+    }
+
+    # Create camera display, plus N debug displays (0 == camera display, by convention)
+    %{ for iDisplay=0,fields.numDebugImageDisplays.value do }%
+      Display {
+        # Hide display plane far away
+        translation 1000 0.1 0
+
+        children [
+          DEF SHAPE Shape {
+            appearance Appearance {
+              material Material {
+                diffuseColor 1 1 1
+                specularColor 0 0 0
+                transparency 0.6
+              }
+            }
+            geometry Plane {
+             size 1 1
+            }
+          }
+        ]
+
+        name "%{= 'cozmo_debug_image_display' .. tostring(iDisplay) }%"
+
+        %{ if fields.streamResolution.value == "VGA" then }%
+        width 640
+        height 480
+        %{ elseif fields.streamResolution.value == "QVGA" then }%
+        width 320
+        height 240
+        %{ elseif fields.streamResolution.value == "QQVGA" then }%
+        width 160
+        height 120
+        %{ elseif fields.streamResolution.value == "QQQVGA" then }%
+        width 80
+        height 60
+        %{ elseif fields.streamResolution.value == "CVGA" then }%
+        width 400
+        height 296
+        %{ elseif fields.streamResolution.value == "HD" then }%
+        width 1280
+        height 720
+        %{ elseif fields.streamResolution.value == "NHD" then }%
+        width 640
+        height 360
+        %{ end }%
+      }
+    %{ end }%  # for iDisplay loop
+    Display {
+      # Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "victor_behavior_stack_display"
+      width 180
+      # assumes size 8 font
+      height %{= fields.numBehaviorStackLines.value * 10 + 16 }%
+    }
+    # Define VisionModeDebug display 
+    Display {
+      #Hide display plane far away
+      translation 1000 0.1 0
+
+      children [
+        DEF SHAPE Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 1 1
+              specularColor 0 0 0
+              transparency 0.6
+            }
+          }
+          geometry Plane {
+            size 1 1
+          }
+        }
+      ]
+      name "victor_vision_mode_display"
+      width 240
+      #assumes size 8 font
+      height %{= fields.numVisionModeLines.value * 10 + 16 }%
+    }
+  ]
+
+  controller "webotsCtrlViz"
+
+  # append optional command line parameters
+  %{ ctrlArgs="" }%
+  %{ if fields.filterLogs.value then }%
+    %{ ctrlArgs = ctrlArgs .. " --applyLogFilter"}%
+  %{ end }%
+  %{ if fields.colorizeStderrOutput.value then }%
+    %{ ctrlArgs = ctrlArgs .. " --colorizeStderrOutput"}%
+  %{ end }%
+
+  controllerArgs "%{=ctrlArgs}%"
+
+} # Supervisor
+
+} # PROTO

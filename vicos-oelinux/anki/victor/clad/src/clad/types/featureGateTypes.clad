@@ -1,0 +1,25 @@
+namespace Anki {
+namespace Cozmo {
+
+enum uint_8 FeatureType {
+  Invalid,
+  AndroidConnectionFlow,
+  SpeedTapMultiPlayer,
+  CodeLabGame,
+  PeekABoo,
+  SparksGatherCubes,
+  Hiccups,
+  GuardDog,
+  Bouncer,
+  Laser,
+  Singing,
+  LocalNotifications
+}
+
+structure FeatureToggle {
+  string name,
+  bool enabled
+}
+
+}
+}

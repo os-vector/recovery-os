@@ -1,0 +1,142 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1442075084	external			\Cozmo_Robot_Voice\external	
+	2205807877	freeplay_mood			\music_switches\freeplay_mood	set switch directly from code or event, RTPC music_mood not configred to trigger switch yet 
+	3128647864	mood			\Cozmo_Robot_Voice\mood	
+	3723222599	relationship			\Cozmo_Robot_Voice\relationship	
+
+Switch	ID	Name	Switch Group			Notes
+	1727626579	external_short	external			
+	1931150551	external_maximum	external			
+	3001056757	external_long	external			
+	3619992510	external_medium	external			
+	296159617	hiking	freeplay_mood			
+	386094975	dancing	freeplay_mood			
+	670611050	neutral	freeplay_mood			
+	889740396	cubeinteract	freeplay_mood			
+	1030326287	guard_dog	freeplay_mood			
+	1058497985	nurture_severe	freeplay_mood			
+	1427264549	happy	freeplay_mood			
+	1427625958	busy	freeplay_mood			
+	1603627138	neutral_lift_cube	freeplay_mood			
+	1946377065	arcade	freeplay_mood			
+	2172443987	neutral_cubes_stacked	freeplay_mood			
+	2320504975	nurture_feeding	freeplay_mood			
+	2890913445	bored	freeplay_mood			
+	3081923682	nurture_repair	freeplay_mood			
+	3261805104	nurture_nirvana	freeplay_mood			
+	3496250545	neutral_request_game	freeplay_mood			
+	3671647190	sleep	freeplay_mood			
+	4294400669	chill	freeplay_mood			
+	457607035	mood_happy	mood			
+	777739821	mood_sad	mood			
+	3970296952	mood_neutral	mood			
+	743952678	realtionship_bff	relationship			
+	1061927592	realtionship_friend	relationship			
+	3087192196	relationship_stranger	relationship			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	207908541	time_of_day			\Default Work Unit\time_of_day	
+	522893720	voice_commands_mode			\Music States\voice_commands_mode	
+	920031443	music_dimmer			\Music States\music_dimmer	
+	944413709	external_language			\Default Work Unit\external_language	
+	2869506494	external_name			\Default Work Unit\external_name	
+	3128647864	mood			\Default Work Unit\mood	
+	3991942870	music			\Music States\music	
+
+State	ID	Name	State Group			Notes
+	390531879	afternoon	time_of_day			
+	748895195	None	time_of_day			
+	1011622525	night	time_of_day			
+	1924633667	morning	time_of_day			
+	2905060079	evening	time_of_day			
+	748895195	None	voice_commands_mode			
+	1444240748	vc_mode_off	voice_commands_mode			
+	2411592966	vc_mode_on	voice_commands_mode			
+	748895195	None	music_dimmer			
+	920031429	music_dimmed	music_dimmer			
+	2880332950	music_full	music_dimmer			
+	748895195	None	external_language			
+	2008704848	japanese	external_language			
+	3133094709	french	external_language			
+	3383237639	english	external_language			
+	4290373403	german	external_language			
+	309148475	design_pre_generated_name	external_name			Use this to use pre-generated Text to Speech wave files in project
+	748895195	None	external_name			
+	3937202207	unit_test_mock	external_name			Use this when running unit test to avoid needing Text to Speech module and Wave Portal Plugin
+	4053302206	external_name_on	external_name			Use this in app with Text to Speech module and Wave Portal Plugin
+	443572635	sad	mood			
+	620622945	curious	mood			
+	670611050	neutral	mood			
+	748895195	None	mood			
+	1206605712	angry	mood			
+	1427264549	happy	mood			
+	2662801688	surprised	mood			
+	22918831	minigame__keep_away_tension	music			
+	102695299	onboarding__core_upgrades	music			
+	150865113	freeplay	music			freeplay playlist selection is driven by the music switch "freeplay_mood"
+	155090436	spark	music			
+	274928299	minigame__keep_away_between_rounds	music			
+	579475288	minigame__keep_away	music			
+	713847863	minigame__generic	music			
+	730889831	codelab	music			
+	739906331	cozmo_says_speaking	music			
+	748895195	None	music			
+	1264085260	connectivity	music			
+	1317044071	minigame__setup	music			
+	1451808254	minigame__memory_match_full_life	music			
+	1580491744	minigame__meet_cozmo	music			
+	1731176119	minigame__memory_match	music			
+	2079381016	minigame__quick_tap_win	music			
+	2262040721	minigame__memory_match_fanfare	music			
+	2282047959	minigame__memory_match_no_lives	music			
+	2338198982	cozmo_says	music			
+	2360281734	onboarding__play_tab	music			
+	2582275442	minigame__meet_cozmo_say_name	music			
+	2865488202	minigame__quick_tap_between_rounds	music			
+	2987088935	minigame__keep_away_player_fail	music			
+	3081923682	nurture_repair	music			
+	3092587493	pause	music			
+	3160623154	silent	music			
+	3234084100	minigame__ride_along	music			
+	3253479049	onboarding__show_cube	music			
+	3317810949	minigame__keep_away_pounce	music			
+	3360093794	onboarding	music			
+	3653788539	alarm_clock	music			
+	3671647190	sleep	music			
+	3775866302	onboarding__meet_cozmo_say_name	music			
+	3954622596	minigame__quick_tap_round2	music			
+	3954622597	minigame__quick_tap_round3	music			
+	3954622599	minigame__quick_tap_round1	music			
+	4195748652	onboarding__meet_cozmo	music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	54606532	vc_mode_on	voice_commands_mode	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	84197375	vc_mode_on	voice_commands_mode	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI		
+	230126038	music_dimmed	music_dimmer	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	948980938	vc_mode_on	voice_commands_mode	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	music_volume			\Default Work Unit\Music\music_volume	
+	1564184899	sfx_volume			\Default Work Unit\SFX\sfx_volume	
+	1669075520	robot_volume			\Default Work Unit\Cozmo_Robot\robot_volume	
+	1719345792	ui_volume			\Default Work Unit\UI\ui_volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	805203703	Master Secondary Bus			\Default Work Unit\Master Secondary Bus	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\UI	
+	1723505802	Cozmo_Robot			\Default Work Unit\Master Audio Bus\Cozmo_Robot	
+	2459405053	Priority_SFX			\Default Work Unit\Master Audio Bus\SFX\Priority_SFX	
+	2476517424	Cozmo_Robot_External			\Default Work Unit\Master Audio Bus\Cozmo_Robot\Cozmo_Robot_External	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	985559041	Cozmo_SFX_Bus_Limiter	Wwise Peak Limiter			
+	2313011259	Cozmo_Voice_Master_Compressor	Wwise Compressor			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3675312315	AkAlsaSink	Alsa			
+	3859886410	System	System			
+

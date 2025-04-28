@@ -1,0 +1,10 @@
+{
+  "Animations": [
+    {
+      "Name": "anim_pyramid_reacttocube_happy_mid_01",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    }
+  ]
+}

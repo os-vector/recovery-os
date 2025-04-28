@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+host=arm-oe-linux-gnueabi
+
+Name: gpg-error
+Description: a library that defines common error values for all GnuPG components
+Version: 1.19
+Libs: -L${libdir} -lgpg-error
+Cflags: -I${includedir}

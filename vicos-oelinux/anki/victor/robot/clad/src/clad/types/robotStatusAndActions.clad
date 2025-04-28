@@ -1,0 +1,115 @@
+// File: robotStatusAndActions
+// Author: damjan stulic
+// Created: 8/13/15
+// Copyright: Anki, inc. 2015
+// ROBOT_CLAD_SHARED
+
+#include "clad/types/imu.clad"
+#include "clad/types/proxMessages.clad"
+
+namespace Anki {
+namespace Cozmo {
+
+enum uint_32 RobotStatusFlag {
+    NoneRobotStatusFlag,
+    IS_MOVING               = 0x00000001,  // Head, lift, or wheels
+    IS_CARRYING_BLOCK       = 0x00000002,
+    IS_PICKING_OR_PLACING   = 0x00000004,
+    IS_PICKED_UP            = 0x00000008,
+    IS_BUTTON_PRESSED       = 0x00000010,
+    IS_FALLING              = 0x00000020,
+    IS_ANIMATING            = 0x00000040,
+    IS_PATHING              = 0x00000080,
+    LIFT_IN_POS             = 0x00000100,
+    HEAD_IN_POS             = 0x00000200,
+    CALM_POWER_MODE         = 0x00000400,
+    // FREE FLAG            = 0x00000800,
+    IS_ON_CHARGER           = 0x00001000,
+    IS_CHARGING             = 0x00002000,
+    CLIFF_DETECTED          = 0x00004000,
+    ARE_WHEELS_MOVING       = 0x00008000,
+    IS_CHARGER_OOS          = 0x00010000,
+}
+
+enum uint_8 DockAction
+{
+  DA_PICKUP_LOW = 0,  // Docking to block at level 0
+  DA_PICKUP_HIGH,     // Docking to block at level 1
+  DA_PLACE_HIGH,      // Placing block atop another block at level 0
+  DA_PLACE_LOW,       // Placing block on level 0
+  DA_PLACE_LOW_BLIND, // Placing block on level 0 (relative to some pose)
+  DA_ROLL_LOW,        // Rolling a block at level 0 by pulling it towards you
+  DA_DEEP_ROLL_LOW,   // Same as above, but it really gets up in there. Useful when lift tool - cube corner contact friction is low
+  DA_POST_DOCK_ROLL,  // Doesn't actually dock, just does the post dock roll movements
+  DA_FACE_PLANT,      // Docks to a stack of blocks and knocks it over, face planting at the same time
+  DA_POP_A_WHEELIE,   // Approach block as if about to roll, lower lift on block and drive forward to pop-a-wheelie
+  DA_ALIGN,           // Approaches block and stops at specified distance from marker
+  DA_ALIGN_SPECIAL,   // Align as if we are picking up an object (want to get lift
+                      // fingers into object grooves) but will not move the lift before
+                      // or afterwards
+  DA_RAMP_ASCEND,     // Going up a ramp
+  DA_RAMP_DESCEND,    // Going down a ramp
+  DA_CROSS_BRIDGE,    // Crossing a bridge
+  DA_BACKUP_ONTO_CHARGER,           // Reverse onto the charger platform
+  DA_BACKUP_ONTO_CHARGER_USE_CLIFF, // Reverse onto the charger platform, using cliff sensors for angle correction
+}
+
+enum uint_8 CarryState
+{
+  CARRY_NONE = 0,
+  CARRY_1_BLOCK,
+  CARRY_2_BLOCK,
+  NUM_CARRY_STATES
+}
+
+message CarryStateUpdate
+{
+  CarryState state
+}
+
+// Structure definition for convenience
+structure RobotPose
+{
+  float_32 x,
+  float_32 y,
+  float_32 z,
+  float_32 angle,
+  float_32 pitch_angle,
+}
+
+structure RobotState
+{
+  uint_32 timestamp,
+  uint_32 pose_frame_id,
+  uint_32 pose_origin_id,
+  RobotPose pose,
+  float_32 lwheel_speed_mmps,
+  float_32 rwheel_speed_mmps,
+  float_32 headAngle,
+  float_32 liftAngle,
+  float_32 backpackTouchSensorFilt, // DONT MERGE TO MASTER
+  AccelData accel,  // in head-frame (mm/s^2)
+  GyroData gyro,    // in head-frame (rad/s)
+  float_32 batteryVoltage,
+  uint_32 status, // RobotStatusFlag packs as a uint_32
+  uint_16 cliffDataRaw[4],
+  ProxSensorData proxData,
+  uint_16 backpackTouchSensorRaw,
+  int_8   currPathSegment, // -1 if not traversing a path
+}
+
+// These enum values should match the body color
+// enum in robot/fixture/app/robotTest.c (factory-1.5 branch)
+enum int_8 BodyColor
+{
+  UNKNOWN   = -1,
+  WHITE_v10 = 0,  // White Cozmo 1.0
+  RESERVED  = 1,  // Unused reserved value
+  WHITE_v15 = 2,  // White Cozmo 1.5
+  CE_LM_v15 = 3,  // Black/Collector's Edition/Liquid Metal Cozmo 1.5
+
+  COUNT
+}
+
+} // namespace Cozmo
+} // namespace Anki

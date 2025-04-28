@@ -1,0 +1,312 @@
+# vicos-oelinux
+
+THIS BRANCH OF THE CODE IS FOR MAKING NORMAL FACTORY AND DEV/OSKR
+UNLOCK IMAGES. YOU ONLY WANT THIS TO BUILD A NEW BASE MANUFACTUING
+IMAGE OR UNLOCK PROD ROBOTS FOR EITHER DEV/OSKR MODE.
+
+THIS ASSUMES YOU HAVE BUILT A **NORMAL** OTA UPDATE BEFORE. IF YOU HAVEN'T
+CHECK OUT THE MASTER BRANCH AND FOLLOW THE INSTRUCTIONS SO YOU UNDERSTAND
+HOW THE SYSTEM WORKS.
+
+## Factory image build quickstart
+
+Assuming your build machine is already configured here are the
+ocmmands to build new images suitable for use for flashing the
+QualComm chip directly via QDL mode:
+
+```
+
+cd $WORKSPACE/poky
+source build/conf/set_bb_env.sh
+
+cd conf
+
+build_30_inc_anki_build_version.sh
+
+# Build the dev/debug version of the factory image.
+build_40_clean_all_artifacts.sh
+build_50_oelinux_build.sh -v dev # And wait an hour...
+build_60_make_images.sh -v dvt
+
+# Build the non-dev factory version of the factory image.
+# We want the same build version for this and the previous build.
+build_40_clean_all_artifacts.sh
+build_50_oelinux_build.sh -v fac # And wait an hour...
+build_60_make_images.sh -v dvt
+
+# Tag in git now that entire build is done and we have good images.
+build_70_git_tag_repos.sh
+```
+
+This will put the new files in `~/victor-fac-builds/dvt/` and then
+these can be copied to the systems that actually flash new heads.
+
+## Unlock Image Practical matters.
+
+Unlock images hack the ABOOT record on an existing production Vector
+to switch modes. Since we are doing this via a userland software
+update, rather than with the normal tools that bypass the OS and write
+directly to the chip we are in dangerous territory. Generating a bad
+set of files has the potential to brick robots.  The best thing to do
+is get the code build, tested, and locked down, then just run the part
+listed as **Actual Build** on a day to day basis to generate the new
+images.
+
+If you do need to bring up a new machine, make sure to test
+extensively before rolling out an image.
+
+## Building the Factory image
+### LInux Configuration
+
+You will need a linux box to do the build. This can be done in a VM
+but will take a day to build unless you can assign something like 16
+Gigs of memory and 8 cores to the VM an 100+ Gigs of disk space. If
+you can do that see the VirtualBox branch of the
+[vic-os-vm-config](https://github.com/anki/vic-os-vm-config)
+repository for instructions on creating and priming a VM.
+
+### SSH key forwarding
+
+The anki git repositories are whitelisted to particular ssh keys within
+your git profile. Rather than set up a new one, use ssh key forwarding
+when sshing in to your VM:
+
+    ssh-add # load your default key in to the keyring
+    ssh -A grant@192.168.56.20 # open with forwarded connectin.
+
+### Getting the source
+
+Both OELinux and our victor repo aren't the best at sorting out stale
+dependencies, particularly on a source rollback, so it's best to check
+out a seperate version of the repository for making these files and
+doing a clean build from scratch. Defer the submodule initialization
+until after we've switched branches:
+
+    cd src
+    git clone git@github.com:anki/vicos-oelinux.git MP-UNLOCK
+    cd MP-UNLOCK
+    git checkout release/mp-unlock
+    git submodule update --init --recursive
+    git submodule update --recursive
+
+### Fixing the victor project dependencies
+
+Becuase this branch is out-of-date compared to the current branch the
+project dependencies installation is broken and complicated to fix. It
+is easier to preconfigure the `victor` repository so that the dependencies
+are already in place.
+
+```
+cd anki/victor
+./install_legacy_externals.sh
+```
+
+See the victor README for more details.
+
+### Initial Build And Prep
+
+Make sure we have a good image with the lasted production release that
+works. If our buiild system isn't working correctly, we can still do a
+factory reset.
+
+1. Start VPN.
+1. Build:
+       cd poky # FROM MP-UNLOCK
+        source build/conf/set_bb_env.sh
+        build-victor-robot-factory-image # wait 40-50 minutes
+
+TODO: Should be build a DVT fac image allowing users to ssh in
+for dev units only?
+
+## OPTION 1: Making a factory image
+
+This is relatively easy as we are simply trying to build the three
+partitions needed for factory recovery that will be installed via
+QDL. We do not need to go through all the hack steps to build an OTA
+to edit the recovery partition.
+
+Sign the boot image with the production key:
+
+```
+cd ota
+make prodsign
+# provide appropriate credentials
+```
+
+Build the ABOOT image. Writeup currently incomplete.
+
+```
+cd poky
+source build/conf/set_bb_env.bb
+# set flavor
+# run bitbake command for lk.
+```
+
+## OPTION 2: Making Unlock OTA files
+
+To unlock production robots for development builds, a special OTA file
+including an ABOOT unlocked to that QSN must be generated. Doing so
+requires a few steps but can be largely automated. If this is done
+wrong it has potential to BRICK a vector unit since we're messing with
+code normally set by the factory and never modified again. Take
+care to follow all instructions precisely.
+
+### Unlock build directory - Making the skeleton build directory
+
+First we build a generic set of files so that we have correct `boot`
+and `sysfs` partitions for the OTA. This build directory is then used
+as a skeleton for builds of individual files. Build out an image as
+normal to prep the skeleton dirctory.
+
+Later we will make sure the `lk` app is built properly with
+appropriate signing keys.
+
+1. Check out a unique build directory. Do not try to switch between
+    branches on the main build directory.
+
+2. Build out a new factory image.
+
+3. Test the image as an OTA and make sure it behaves like we expect.
+
+This should only be done once per build machine.
+
+### Set OSKR Unlock flavor for the OSKR unlock build directory
+
+By default this will be a Dev bot build pointing to our dev stack and
+with a warning screen. If we want an OSKR build we need to change the
+signature on the system image:
+
+```
+cd ota
+make oskrsign
+```
+
+### Full unlock build - Individual robots
+
+This is the procedure to use the skeleton generated above to generate
+a full unique unlock image for installation on an individual robot.
+
+#### Preqrequisite: APQ Sectools
+
+You will need a copy of the special repository
+apq8009-le-1-0-2_ap_standard_oem with a good version of
+Qualcomm's sectools scripts.
+
+**TODO:** *Security implications of taring up the sectools dir
+instead of giving people the whole repo?*
+
+#### Getting the QSN
+
+Now that we have the system images we can unlock a robot. This
+requires a different OTA file for each device since we need the
+Qualcomm Serial Number to generate a valid file.
+
+To get the QSN:
+
+1. Connect to robot with ./mac-client
+2. Run `logs` and wait for the log dump to finish.
+
+
+#### Actual Unlock Build instructions - Individual robot
+
+1. Initialize environment:
+        cd poky # FROM MP-UNLOCK
+        source build/conf/set_bb_env.sh
+	
+1. To set the proper environment variables, you need to run a build
+    task and then quit it immediately after it fires up. We want it
+    to `export` various environment settings, but we **DONT'T** want
+    it to build anything new for the `sysfs` or `boot` images.
+
+    For a DEV image: `build-robot-perf-image`
+
+    For an OSKR image: `build-robot-perfoskr-image`
+
+    With these environment variables we will determine which X509
+    certificate is included in the `lk` applications, which controls
+    secure boot.
+
+1. Make the unlock file: `cd ota` and `python3 mk_unlock.py -q<qsn>
+   -sm --sectools ~/src/apq8009-le-1-0-2_ap_standard_oem/common/tools/sectools/` or
+   `python3 mk_unlock.py -l <file with one QSN per line> -sm --sectools ~/src/apq8009-le-1-0-2_ap_standard_oem/common/tools/sectools/`
+
+    Note that signing the LK (`-s`) with cause the script to prompt
+    for the signing password and making the OTA file (`-m`) will cause it
+    to prompt for the OTA signing key password.
+
+    This will create an OTA with a custom unlock file with an `lk`
+    bootloader that:
+
+    1. Has either a DVT or OSKR x509 certificate allowing it to
+        only install OTA images signed with the appropriate key,
+	and not PROD images.
+
+    2. Is locked to a specific QSN preventing the OTA from being
+        able to be used on random robots in the wild.
+
+When the build is complete you'll have a file in
+`MP-UNLOCK/_build/unlock` with the robot's QSN in the filename. This
+can be deployed as listed above with mac-client and after completion
+you should have a unloced robot.
+
+### Verification - After first full build.
+
+1. Verify the signatures match. A make task will check both boot and ABOOT match.
+    ```
+    cd ota
+    make verify-boot-dev # for DEV builds
+    make verify-boot-oskr # for OSKR builds
+    ```
+
+2. Verify you properly checked out the correct submodules.
+
+    ```
+    cd anki/victor
+    git log # check logs to make sure we're not on mainline, maybe a tag
+    ```
+
+### Testing new image on existing DEV/OSKR bot.
+
+The security checks in the update script normally prevent you from
+re-updating a DEV or OSKR unlocked bot. However these are just softare
+checks and can be disabled manually in the robots
+`/anki/dev/update-engine`
+
+```diff
+diff --git a/platform/update-engine/update-engine.py b/platform/update-engine/update-engine.py
+index 9c8fdcd357..c37833bb3a 100755
+--- a/platform/update-engine/update-engine.py
++++ b/platform/update-engine/update-engine.py
+@@ -567,8 +567,8 @@ def validate_new_os_version(current_os_version, new_os_version, cmdline):
+     new_os_version_suffix = m.groups()[0]
+     m = os_version_regex.match(current_os_version)
+     current_os_version_suffix = m.groups()[0]
+-    if new_os_version_suffix != current_os_version_suffix:
+-        die(216, "Update from " + current_os_version + " to " + new_os_version + " not allowed")
++#    if new_os_version_suffix != current_os_version_suffix:
++#        die(216, "Update from " + current_os_version + " to " + new_os_version + " not allowed")
+     if LooseVersion(new_os_version) < LooseVersion(current_os_version):
+         die(216, "Downgrade from " + current_os_version + " to " + new_os_version + " not allowed")
+     return
+@@ -620,11 +620,11 @@ def update_from_url(url):
+         validate_new_os_version(current_os_version, next_boot_os_version, cmdline)
+         if DEBUG:
+             print("Updating to version {}".format(next_boot_os_version))
+-        if is_dev_robot(cmdline):
+-            if not manifest.getint("META", "ankidev"):
+-                die(214, "Ankidev OS can't install non-ankidev OTA file")
+-        elif manifest.getint("META", "ankidev"):
+-            die(214, "Non-ankidev OS can't install ankidev OTA file")
++#        if is_dev_robot(cmdline):
++#            if not manifest.getint("META", "ankidev"):
++#                die(214, "Ankidev OS can't install non-ankidev OTA file")
++#        elif manifest.getint("META", "ankidev"):
++#            die(214, "Non-ankidev OS can't install ankidev OTA file")
+         # Mark target unbootable
+         if not call(['/bin/bootctl', current_slot, 'set_unbootable', target_slot]):
+             die(202, "Could not mark target slot unbootable")
+```
+
+And then kick off the update manually with this command. You will also need to reboot manually when its complete.
+
+`UPDATE_IMAGE_DEBUG=True UPDATE_IMAGE_URL=http://localhost:8000/mpunlock/vicos-5.0.0-312675720.ota ./update-engine`

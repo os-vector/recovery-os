@@ -1,0 +1,22 @@
+{
+  "Animations": [
+    {
+      "Name": "anim_energy_idlel2_01_nohead",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    },
+    {
+      "Name": "anim_energy_idlel2_02_nohead",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    },
+    {
+      "Name": "anim_energy_idlel2_03_nohead",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    }
+  ]
+}

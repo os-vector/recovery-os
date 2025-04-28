@@ -1,0 +1,49 @@
+{
+  "emotionEvents" : [
+    {
+      "name": "LookAtFaceVerified",
+      "emotionAffectors" : [
+        {
+          "emotionType" : "Social",
+          "value" : 0.08
+        }
+      ]
+    },
+    {
+      "name": "InteractWithNamedFace",
+      "emotionAffectors" : [
+        {
+          "emotionType" : "Social",
+          "value" : 0.8
+        }
+      ]
+    },
+    {
+      "name": "InteractWithUnnamedFace",
+      "emotionAffectors" : [
+        {
+          "emotionType" : "Social",
+          "value" : 0.6
+        }
+      ]
+    },
+    {
+      "name": "InteractWithFaceRetry",
+      "emotionAffectors" : [
+        {
+          "emotionType" : "Confident",
+          "value" : -0.1
+        }
+      ]
+    },
+    {
+      "name": "GreetingSayName",
+      "emotionAffectors" : [
+        {
+          "emotionType" : "Social",
+          "value" : 0.6
+        }
+      ]
+    }
+  ]
+}

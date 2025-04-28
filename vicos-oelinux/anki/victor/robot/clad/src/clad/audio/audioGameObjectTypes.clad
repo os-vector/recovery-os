@@ -1,0 +1,21 @@
+
+namespace Anki {
+namespace AudioMetaData {
+
+
+enum uint_64 GameObjectType
+{
+
+  Invalid = 0,
+  Default,
+  UI,
+  SFX,
+  CodeLab,
+  Cozmo_OnDevice,
+  Cozmo_Listener,
+  End, // Need end val so I can enumerate through GameObjects
+
+}
+
+} // AudioMetaData
+} // Anki

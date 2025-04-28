@@ -1,0 +1,10 @@
+{
+  "Animations": [
+    {
+      "Name": "anim_memorymatch_successhand_cozmo_04",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    }
+  ]
+}

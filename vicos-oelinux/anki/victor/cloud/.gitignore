@@ -1,0 +1,6 @@
+go/bin
+go/src/github.com
+go/src/cloud.google.com
+go/src/golang.org
+go/src/google.golang.org
+**/debug.test

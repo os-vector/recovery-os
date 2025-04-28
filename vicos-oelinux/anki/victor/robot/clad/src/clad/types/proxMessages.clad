@@ -1,0 +1,44 @@
+/** Clad message definitions for the messages sent from the WiFi to the engine.
+ * ROBOT_CLAD_SHARED
+ */
+
+
+namespace Anki {
+namespace Cozmo {
+
+enum uint_8 CliffSensor {
+  CLIFF_FL = 0, // Front left
+  CLIFF_FR,     // Front right
+  CLIFF_BL,     // Back left
+  CLIFF_BR,     // Back right
+  CLIFF_COUNT
+}
+
+// If detected, (x_mm, y_mm) represent the location the cliff was detected
+message CliffEvent {
+  uint_32  timestamp,
+  uint_8   detectedFlags,  // bit flags shifted by CliffSensor values above
+  bool     didStopForCliff
+}
+
+// Is only sent when the robot is told not to stop on cliff detected in order
+// to be able to react with animations at possible cliffs (driving over wires or carpet)
+message PotentialCliff {
+}
+
+message SetCliffDetectThresholds
+{
+  uint_16 thresholds[4],  // New cliff threshold values for each sensor
+}
+
+structure ProxSensorData {
+  float_32 signalIntensity,  // the intensity of the light (expressed in millions of counts per second) return to the sensor
+  float_32 ambientIntensity, // the intensity of light (expressed in millions of counts per second) in ambient conditions (i.e. emitter turned off)
+  float_32 spadCount,        // effective number of SPADs (Single-photon Avalanche Diodes) used for the measurement
+  uint_16  distance_mm,      // reported distance in mm
+  uint_8   rangeStatus,      // the ranging status reported by the device (see documentation for values)
+  uint_8   padding,
+}
+
+} // namespace Cozmo
+} // namespace Anki

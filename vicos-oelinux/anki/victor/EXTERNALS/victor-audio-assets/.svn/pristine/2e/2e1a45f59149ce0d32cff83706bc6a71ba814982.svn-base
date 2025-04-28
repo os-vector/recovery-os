@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Dev_Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\</ProjectRoot>
+		<SourceFilesRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Dev_Mac\English(US)\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Dev_Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1453038702" GUID="{51944AE8-45A2-49BB-871A-8800C447687D}" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dev_Debug</ObjectPath>
+			<ShortName>Dev_Debug</ShortName>
+			<Path>English(US)\Dev_Debug.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3462246304" Name="Play__Dev_Device__External_Source" ObjectPath="\Events\Dev_Debug\Play__Dev_Device__External_Source" GUID="{B6721FE4-D7E9-4847-A056-00DED6EF248A}" DurationType="Unknown"/>
+				<Event Id="2415524415" Name="Play__Dev_Device__Tone_Generator" ObjectPath="\Events\Dev_Debug\Play__Dev_Device__Tone_Generator" GUID="{FDA749D4-EE9F-42B6-B4BA-8BB4BAD1A234}" DurationType="OneShot" DurationMin="0.600000" DurationMax="0.600000"/>
+				<Event Id="2839960576" Name="Play__Dev_Robot__Angry_Muttering" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Angry_Muttering" GUID="{7F79C081-BE27-452F-B246-A3E6696BA6BB}" DurationType="OneShot" DurationMin="2.063052" DurationMax="4.312510"/>
+				<Event Id="2942381837" Name="Play__Dev_Robot__Curious_Muttering" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Curious_Muttering" GUID="{B43961F4-8D66-4707-850B-600E6693460E}" DurationType="OneShot" DurationMin="1.007865" DurationMax="1.643583"/>
+				<Event Id="2539447680" Name="Play__Dev_Robot__External_Source" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__External_Source" GUID="{8F2FCA7D-5D5A-48B6-B038-AD5A78A8743D}" DurationType="Unknown"/>
+				<Event Id="4128432838" Name="Play__Dev_Robot__Freq_Sweep_20sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Freq_Sweep_20sec" GUID="{12EE6F84-2D91-44D0-BC42-9085680EB9F2}" DurationType="OneShot" DurationMin="20.000000" DurationMax="20.000000"/>
+				<Event Id="253187573" Name="Play__Dev_Robot__Freq_Sweep_5sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Freq_Sweep_5sec" GUID="{86A41A1F-2FA3-487C-9039-1E7290683D0A}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+				<Event Id="627442460" Name="Play__Dev_Robot__Mozart" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Mozart" GUID="{07AFFE58-3FB9-4304-9053-BEF6089B5820}" DurationType="OneShot" DurationMin="35.356529" DurationMax="35.356529"/>
+				<Event Id="3980968688" Name="Play__Dev_Robot__Pink_1sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Pink_1sec" GUID="{E10A5EE1-4DCF-4DF3-A721-72DAC30B0A17}" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="988519260" Name="Play__Dev_Robot__Pink_5sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Pink_5sec" GUID="{BC93862A-380C-4A65-A38F-95EF4A4110F3}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+				<Event Id="2363892348" Name="Play__Dev_Robot__Playpen_Freq_Sweep" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Playpen_Freq_Sweep" GUID="{B3300C1E-0D21-4EDF-9854-A1CCBECF2E7D}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+				<Event Id="3488492107" Name="Play__Dev_Robot__Tone_1760Hz_5sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Tone_1760Hz_5sec" GUID="{7CCE865F-8054-4923-8A3A-D3C546F76101}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+				<Event Id="4068444155" Name="Play__Dev_Robot__Tone_1k_1sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Tone_1k_1sec" GUID="{7FFFCB80-854A-4D94-9F7D-3D82CDA31BA0}" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="1034417959" Name="Play__Dev_Robot__Tone_1k_5sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Tone_1k_5sec" GUID="{3C2C7FB7-CA06-44E7-9C9E-04F075E64B6B}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+				<Event Id="1471825745" Name="Play__Dev_Robot__Tone_440Hz_5sec" ObjectPath="\Events\Dev_Debug\Play__Dev_Robot__Tone_440Hz_5sec" GUID="{7D193560-7210-4711-8D8D-D733A4B85775}" DurationType="OneShot" DurationMin="5.000000" DurationMax="5.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="373045139" Language="SFX">
+					<ShortName>Dev_Mozart.wav</ShortName>
+					<Path>SFX\Dev_Mozart_53CEE377.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="156899937" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_09_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_09_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="164240681" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_07_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_07_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="180764862" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_02_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_02_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="188674249" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_01_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_01_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="196538046" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_08_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_08_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="203406433" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_04_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_04_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="244320660" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_10_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_10_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="271267708" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_06_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_06_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="284008237" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_03_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_03_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="327435963" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_02_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_02_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="469088001" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_08_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_08_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="498847072" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_10_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_10_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="522528786" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_03_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_03_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="526792561" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_09_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_09_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="612069436" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_05_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_05_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="634337767" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_07_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_07_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="789928846" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_05_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_05_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="918045272" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_06_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_06_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="939098251" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Curious_Mutter_04_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Curious_Mutter_04_PA_53CEE377.wem</Path>
+				</File>
+				<File Id="941457246" Language="English(US)">
+					<ShortName>Robot_VO__Shared_Angry_Muttering_01_PA.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Shared_Angry_Muttering_01_PA_53CEE377.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

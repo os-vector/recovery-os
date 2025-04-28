@@ -1,0 +1,60 @@
+Event	ID	Name			Wwise Object Path	Notes
+	253187573	Play__Dev_Robot__Freq_Sweep_5sec			\Dev_Debug\Play__Dev_Robot__Freq_Sweep_5sec	
+	627442460	Play__Dev_Robot__Mozart			\Dev_Debug\Play__Dev_Robot__Mozart	
+	988519260	Play__Dev_Robot__Pink_5sec			\Dev_Debug\Play__Dev_Robot__Pink_5sec	
+	1034417959	Play__Dev_Robot__Tone_1k_5sec			\Dev_Debug\Play__Dev_Robot__Tone_1k_5sec	
+	1471825745	Play__Dev_Robot__Tone_440Hz_5sec			\Dev_Debug\Play__Dev_Robot__Tone_440Hz_5sec	
+	2363892348	Play__Dev_Robot__Playpen_Freq_Sweep			\Dev_Debug\Play__Dev_Robot__Playpen_Freq_Sweep	
+	2415524415	Play__Dev_Device__Tone_Generator			\Dev_Debug\Play__Dev_Device__Tone_Generator	
+	2539447680	Play__Dev_Robot__External_Source			\Dev_Debug\Play__Dev_Robot__External_Source	
+	2839960576	Play__Dev_Robot__Angry_Muttering			\Dev_Debug\Play__Dev_Robot__Angry_Muttering	
+	2942381837	Play__Dev_Robot__Curious_Muttering			\Dev_Debug\Play__Dev_Robot__Curious_Muttering	
+	3462246304	Play__Dev_Device__External_Source			\Dev_Debug\Play__Dev_Device__External_Source	
+	3488492107	Play__Dev_Robot__Tone_1760Hz_5sec			\Dev_Debug\Play__Dev_Robot__Tone_1760Hz_5sec	
+	3980968688	Play__Dev_Robot__Pink_1sec			\Dev_Debug\Play__Dev_Robot__Pink_1sec	
+	4068444155	Play__Dev_Robot__Tone_1k_1sec			\Dev_Debug\Play__Dev_Robot__Tone_1k_1sec	
+	4128432838	Play__Dev_Robot__Freq_Sweep_20sec			\Dev_Debug\Play__Dev_Robot__Freq_Sweep_20sec	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2324555758	dev_tone_freq			\Default Work Unit\Dev\dev_tone_freq	
+	3530059848	event_volume			\Default Work Unit\Cozmo_Robot\event_volume	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	148751953	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Pink_1sec\Wwise Tone Generator	
+	194053584	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Pink_5sec\Wwise Tone Generator	
+	245431653	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__440Hz_5sec\Wwise Tone Generator	
+	290021808	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Device\Dev_Tone_Generator_Device\Wwise Tone Generator	
+	338116612	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Freq_Sweep_20sec\Wwise Tone Generator	
+	451621803	Anki Wave Portal	Anki Wave Portal		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_External\Anki Wave Portal	
+	544394534	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__1k_5sec\Wwise Tone Generator	
+	675490650	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__1760Hz_5sec\Wwise Tone Generator	
+	748458010	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Freq_Sweep_5sec\Wwise Tone Generator	
+	971115154	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__1k_1sec\Wwise Tone Generator	
+	972796553	Anki Wave Portal	Anki Wave Portal		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Device\Dev_External_Device\Anki Wave Portal	
+	1006113785	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Playpen_Freq_Sweep\Wwise Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	156899937	Robot_VO__Shared_Angry_Muttering_09_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_09_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_09_PA		216690
+	164240681	Robot_VO__Shared_Angry_Muttering_07_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_07_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_07_PA		220606
+	180764862	Robot_VO__Shared_Curious_Mutter_02_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_02_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_02_PA		144960
+	188674249	Robot_VO__Shared_Curious_Mutter_01_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_01_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_01_PA		125162
+	196538046	Robot_VO__Shared_Curious_Mutter_08_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_08_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_08_PA		130092
+	203406433	Robot_VO__Shared_Angry_Muttering_04_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_04_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_04_PA		210752
+	244320660	Robot_VO__Shared_Angry_Muttering_10_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_10_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_10_PA		218612
+	271267708	Robot_VO__Shared_Curious_Mutter_06_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_06_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_06_PA		123396
+	284008237	Robot_VO__Shared_Angry_Muttering_03_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_03_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_03_PA		264618
+	327435963	Robot_VO__Shared_Angry_Muttering_02_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_02_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_02_PA		299682
+	469088001	Robot_VO__Shared_Angry_Muttering_08_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_08_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_08_PA		211176
+	498847072	Robot_VO__Shared_Curious_Mutter_10_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_10_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_10_PA		154442
+	522528786	Robot_VO__Shared_Curious_Mutter_03_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_03_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_03_PA		96818
+	526792561	Robot_VO__Shared_Curious_Mutter_09_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_09_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_09_PA		157848
+	612069436	Robot_VO__Shared_Curious_Mutter_05_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_05_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_05_PA		133546
+	634337767	Robot_VO__Shared_Curious_Mutter_07_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_07_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_07_PA		125460
+	789928846	Robot_VO__Shared_Angry_Muttering_05_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_05_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_05_PA		198116
+	918045272	Robot_VO__Shared_Angry_Muttering_06_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_06_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_06_PA		208394
+	939098251	Robot_VO__Shared_Curious_Mutter_04_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Curious_Mutter_04_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Curious_Muttering\Robot_VO__Shared_Curious_Mutter_04_PA		106638
+	941457246	Robot_VO__Shared_Angry_Muttering_01_PA	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\Voices\English(US)\Robot_VO__Shared_Angry_Muttering_01_PA_53CEE377.wem		\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Angry_Muttering\Robot_VO__Shared_Angry_Muttering_01_PA		414064
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	373045139	Dev_Robot__Mozart	C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\SFX\Dev_Mozart_53CEE377.wem	373045139.wem	\Actor-Mixer Hierarchy\Dev_Debug\Dev_Cozmo\Dev_Robot__Mozart	
+

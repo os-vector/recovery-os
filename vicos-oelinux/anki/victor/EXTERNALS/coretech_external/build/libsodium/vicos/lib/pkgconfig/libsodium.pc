@@ -1,0 +1,11 @@
+prefix=/Users/build/buildAgent/work/2b4c7202ccc51830/libsodium/libsodium-vicos
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsodium
+Version: 1.0.16
+Description: A modern and easy-to-use crypto library
+
+Libs: -L${libdir} -lsodium
+Cflags: -I${includedir}

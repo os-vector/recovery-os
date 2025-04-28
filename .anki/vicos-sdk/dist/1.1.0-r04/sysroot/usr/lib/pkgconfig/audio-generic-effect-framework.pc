@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: audio-generic-effect-framework
+Description: audio-generic-effect-framework library
+Version: 1.0.0
+Libs: -L${libdir} -lqtigef
+Cflags: -I${includedir}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Victor switchboard daemon
+SourcePath=/anki/bin/vic-switchboard
+PartOf=anki-robot.target
+
+Wants=vic-engine.service ankibluetoothd.service
+After=vic-engine.service ankibluetoothd.service
+
+[Service]
+EnvironmentFile=/anki/etc/vic-switchboard.env
+ExecStart=/usr/bin/logwrapper /anki/bin/vic-switchboard $VIC_SWITCHBOARD_OPTS
+Restart=no
+
+[Install]
+WantedBy=anki-robot.target

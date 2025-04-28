@@ -1,0 +1,22 @@
+{
+  "Animations": [
+    {
+      "Name": "anim_memorymatch_reacttopattern_01",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default",
+      "UseHeadAngle": true,
+      "HeadAngleMin_Deg": -25.0,
+      "HeadAngleMax_Deg": -10.0
+    },
+    {
+      "Name": "anim_memorymatch_reacttopattern_02",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default",
+      "UseHeadAngle": true,
+      "HeadAngleMin_Deg": -10.0,
+      "HeadAngleMax_Deg": 10.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	902542	Play__UI__Click_General			\UI\Play__UI__Click_General	
+	126137843	Play__SFX__Game_Start			\UI\Change_Event_To_Match_Wav\Play__SFX__Game_Start	
+	647774144	Play__UI__Cozmo_Connect			\UI\Play__UI__Cozmo_Connect	
+	681875134	Play__SDK__UI_Device_Notification			\UI\SDK__UI\Play__SDK__UI_Device_Notification	
+	698059508	Play__UI__Cozmo_Connect_Scan_Loop_Stop			\UI\Play__UI__Cozmo_Connect_Scan_Loop_Stop	
+	796149778	Play__UI__Attention_Device			\UI\Play__UI__Attention_Device	
+	931790836	Play__UI__Window_Vertical_Wipe			\UI\Play__UI__Window_Vertical_Wipe	
+	974187556	Play__UI__Window_Close			\UI\Play__UI__Window_Close	
+	1225777195	Play__Coz_App__Enter_Foreground			\UI\Play__Coz_App__Enter_Foreground	
+	1233383102	Play__UI__Cozmo_Upgrade			\UI\Play__UI__Cozmo_Upgrade	
+	1356238993	Play__UI__Cozmo_Connect_Scan_Loop			\UI\Play__UI__Cozmo_Connect_Scan_Loop	
+	1743202231	Play__UI__Cozmo_Connect_Fail			\UI\Play__UI__Cozmo_Connect_Fail	
+	1763539616	Play__UI__Window_Open			\UI\Play__UI__Window_Open	
+	1840201236	Play__UI__Placeholder			\UI\Play__UI__Placeholder	
+	2017190380	Play__Coz_App__Enter_Background			\UI\Play__Coz_App__Enter_Background	
+	2439191052	Play__UI__Cozmo_Disconnect			\UI\Play__UI__Cozmo_Disconnect	
+	3010549659	Play__SFX__Daily_Goal			\UI\Change_Event_To_Match_Wav\Play__SFX__Daily_Goal	
+	3105114476	Play__UI__Cozmo_Error			\UI\Play__UI__Cozmo_Error	
+	3218349115	Play__UI__Click_Back			\UI\Play__UI__Click_Back	
+	3333714278	Play__SDK__UI_Click			\UI\SDK__UI\Play__SDK__UI_Click	
+	3871304392	Play__SFX__Game_End			\UI\Change_Event_To_Match_Wav\Play__SFX__Game_End	
+

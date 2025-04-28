@@ -1,0 +1,22 @@
+{
+  "Animations": [
+    {
+      "Name": "anim_hiccup_01",
+      "Weight": 4.5,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    },
+    {
+      "Name": "anim_hiccup_02",
+      "Weight": 4.5,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    },
+    {
+      "Name": "anim_hiccup_withreaction_01",
+      "Weight": 1.0,
+      "CooldownTime_Sec": 0.0,
+      "Mood": "Default"
+    }
+  ]
+}

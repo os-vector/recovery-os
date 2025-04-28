@@ -1,0 +1,10 @@
+#!/bin/bash
+BASE=$(dirname $0)
+        LDNAME=$(basename $0)
+SYSROOT="${BASE}/../../sysroot"
+TARGET=arm-oe-linux-gnueabi
+COMPILER_PATH="${SYSROOT}/usr/lib/${TARGET}/4.9.3"
+
+exec env COMPILER_PATH="${COMPILER_PATH}" \
+    	 "${BASE}/${LDNAME}.gold" -L${COMPILER_PATH} \
+                            "$@"

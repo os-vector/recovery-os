@@ -1,0 +1,19 @@
+# Package Information for pkg-config
+prefix=/usr
+exec_prefix=/usr
+datarootdir=${prefix}/share
+datadir=/usr/share
+libdir=/usr/lib
+includedir=/usr/include
+toolsdir=${datadir}/syslog-ng/tools
+moduledir=/usr/lib/syslog-ng
+config_includedir=${datadir}/syslog-ng/include
+scldir=${datadir}/syslog-ng/include/scl
+ivykis=internal
+
+Name: syslog-ng-dev
+Description: Dev package for syslog-ng module
+Version: 3.16.1
+Requires: glib-2.0
+Libs: -L${libdir} -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgthread-2.0 -pthread -lglib-2.0 -lsyslog-ng -levtlog
+Cflags: -I${includedir}/syslog-ng -isystem ${includedir}/syslog-ng/ivykis

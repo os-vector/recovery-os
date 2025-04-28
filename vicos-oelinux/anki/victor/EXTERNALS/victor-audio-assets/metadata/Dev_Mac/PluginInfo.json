@@ -1,0 +1,64 @@
+{
+ "PluginInfo": {
+  "Project": "VictorAudio",
+  "Platform": "Dev_Mac",
+  "BasePlatform": "Mac",
+  "Plugins": {
+   "Plugin": {
+    "Name": "Wwise Sine",
+    "ID": "6553602",
+    "DLL": "AkSineTone"
+   },
+   "Plugin": {
+    "Name": "Anki Wave Portal",
+    "ID": "6558402",
+    "DLL": "WavePortal"
+   },
+   "Plugin": {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   "Plugin": {
+    "Name": "Wwise Tone Generator",
+    "ID": "6684674",
+    "DLL": "AkToneGen"
+   },
+   "Plugin": {
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ"
+   },
+   "Plugin": {
+    "Name": "Wwise Compressor",
+    "ID": "7077891",
+    "DLL": "AkCompressor"
+   },
+   "Plugin": {
+    "Name": "Wwise Expander",
+    "ID": "7143427",
+    "DLL": "AkExpander"
+   },
+   "Plugin": {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter"
+   },
+   "Plugin": {
+    "Name": "Wwise Harmonizer",
+    "ID": "9043971",
+    "DLL": "AkHarmonizer"
+   },
+   "Plugin": {
+    "Name": "System",
+    "ID": "11403271",
+    "DLL": "DefaultSink"
+   },
+   "Plugin": {
+    "Name": "No Output",
+    "ID": "11862023",
+    "DLL": "DefaultSink"
+   }
+  }
+ }
+}

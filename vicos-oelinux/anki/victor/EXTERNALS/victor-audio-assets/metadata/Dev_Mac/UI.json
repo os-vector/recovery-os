@@ -1,0 +1,217 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Dev_Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\",
+   "SourceFilesRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\.cache\\Dev_Mac\\",
+   "SoundBanksRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Dev_Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Dev_Mac\\"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1551306167",
+    "GUID": "{C831972C-7318-4FB4-9528-A1D6EF654617}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI",
+    "ShortName": "UI",
+    "Path": "UI.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2017190380",
+      "Name": "Play__Coz_App__Enter_Background",
+      "ObjectPath": "\\Events\\UI\\Play__Coz_App__Enter_Background",
+      "GUID": "{EA16FD7F-D4BA-4B8D-8EDA-F175FC5B2C66}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1225777195",
+      "Name": "Play__Coz_App__Enter_Foreground",
+      "ObjectPath": "\\Events\\UI\\Play__Coz_App__Enter_Foreground",
+      "GUID": "{CD6204E1-18A5-4018-BC20-5E736508D75A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3333714278",
+      "Name": "Play__SDK__UI_Click",
+      "ObjectPath": "\\Events\\UI\\SDK__UI\\Play__SDK__UI_Click",
+      "GUID": "{F37693EA-E9B7-4097-BF51-BEA29BB86236}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.139728",
+      "DurationMax": "0.139728"
+     },
+     {
+      "Id": "681875134",
+      "Name": "Play__SDK__UI_Device_Notification",
+      "ObjectPath": "\\Events\\UI\\SDK__UI\\Play__SDK__UI_Device_Notification",
+      "GUID": "{2C1E8F42-1AD0-4E4A-A820-ABAC238F23C0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.014500",
+      "DurationMax": "1.014500"
+     },
+     {
+      "Id": "3010549659",
+      "Name": "Play__SFX__Daily_Goal",
+      "ObjectPath": "\\Events\\UI\\Change_Event_To_Match_Wav\\Play__SFX__Daily_Goal",
+      "GUID": "{677AF676-4E96-4334-897B-D09D3C07B90C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.383719",
+      "DurationMax": "1.383719"
+     },
+     {
+      "Id": "3871304392",
+      "Name": "Play__SFX__Game_End",
+      "ObjectPath": "\\Events\\UI\\Change_Event_To_Match_Wav\\Play__SFX__Game_End",
+      "GUID": "{B72BA935-BD20-4FF2-8F7A-CEACA6A5BBED}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.969592",
+      "DurationMax": "0.969592"
+     },
+     {
+      "Id": "126137843",
+      "Name": "Play__SFX__Game_Start",
+      "ObjectPath": "\\Events\\UI\\Change_Event_To_Match_Wav\\Play__SFX__Game_Start",
+      "GUID": "{371855F9-F249-42F4-93B7-A2B95A0D5CBC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.140816",
+      "DurationMax": "1.140816"
+     },
+     {
+      "Id": "796149778",
+      "Name": "Play__UI__Attention_Device",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Attention_Device",
+      "GUID": "{6F8F09B6-C98E-44F5-902D-237DD72977A8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.014500",
+      "DurationMax": "1.014500"
+     },
+     {
+      "Id": "3218349115",
+      "Name": "Play__UI__Click_Back",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Click_Back",
+      "GUID": "{A290754C-48CE-4770-91BA-D9BE5FA6B855}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.224127",
+      "DurationMax": "0.224127"
+     },
+     {
+      "Id": "902542",
+      "Name": "Play__UI__Click_General",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Click_General",
+      "GUID": "{C069BFF1-15A4-4E77-8973-09B4B9DE0202}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.139728",
+      "DurationMax": "0.139728"
+     },
+     {
+      "Id": "647774144",
+      "Name": "Play__UI__Cozmo_Connect",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Connect",
+      "GUID": "{58B61999-8BA0-4A39-AC4E-04EC7245139D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.433333",
+      "DurationMax": "0.433333"
+     },
+     {
+      "Id": "1743202231",
+      "Name": "Play__UI__Cozmo_Connect_Fail",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Connect_Fail",
+      "GUID": "{B8A9BD5C-07C7-4F8C-8BF6-897DD0F5270B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.826667",
+      "DurationMax": "0.826667"
+     },
+     {
+      "Id": "1356238993",
+      "Name": "Play__UI__Cozmo_Connect_Scan_Loop",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Connect_Scan_Loop",
+      "GUID": "{529C1E17-E49A-4D7D-B107-32E303DE1C0E}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "698059508",
+      "Name": "Play__UI__Cozmo_Connect_Scan_Loop_Stop",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Connect_Scan_Loop_Stop",
+      "GUID": "{8F954CBE-2DC0-4673-BA22-5D77242C93B8}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2439191052",
+      "Name": "Play__UI__Cozmo_Disconnect",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Disconnect",
+      "GUID": "{C2455EBD-9F3B-459C-BED1-909B404BCA2E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.390458",
+      "DurationMax": "1.390458"
+     },
+     {
+      "Id": "3105114476",
+      "Name": "Play__UI__Cozmo_Error",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Error",
+      "GUID": "{AD896775-4067-4FF5-931F-CB92895EE18A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.826667",
+      "DurationMax": "0.826667"
+     },
+     {
+      "Id": "1233383102",
+      "Name": "Play__UI__Cozmo_Upgrade",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Cozmo_Upgrade",
+      "GUID": "{58B98F31-8DA1-4586-BE55-B8129F27A855}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.777333",
+      "DurationMax": "2.777333"
+     },
+     {
+      "Id": "1840201236",
+      "Name": "Play__UI__Placeholder",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Placeholder",
+      "GUID": "{02D64D97-3C9C-4A51-AF5E-127CDE73FCB4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.200000",
+      "DurationMax": "0.200000"
+     },
+     {
+      "Id": "974187556",
+      "Name": "Play__UI__Window_Close",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Window_Close",
+      "GUID": "{A455AF1E-17F1-4036-97DB-6000D61E1D4D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.438685",
+      "DurationMax": "0.438685"
+     },
+     {
+      "Id": "1763539616",
+      "Name": "Play__UI__Window_Open",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Window_Open",
+      "GUID": "{AE1C4BDB-6407-4DBC-9687-D6EEE193C942}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.444966",
+      "DurationMax": "0.444966"
+     },
+     {
+      "Id": "931790836",
+      "Name": "Play__UI__Window_Vertical_Wipe",
+      "ObjectPath": "\\Events\\UI\\Play__UI__Window_Vertical_Wipe",
+      "GUID": "{B74ACBAE-7D0A-43BE-8CFC-B87E9BF54463}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.444966",
+      "DurationMax": "0.444966"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+// Available audio buses in project
+
+namespace Anki {
+namespace AudioMetaData {
+namespace Bus {
+
+enum uint_32 BusType
+{
+  Cozmo_Robot = 1723505802,
+  Cozmo_Robot_External = 2476517424,
+  Invalid = 0,
+  Master_Audio_Bus = 3803692087,
+  Master_Secondary_Bus = 805203703,
+  Music = 3991942870,
+  Priority_Sfx = 2459405053,
+  Sfx = 393239870,
+  Ui = 1551306167,
+}
+
+} // Bus
+} // AudioMetaData
+} // Anki

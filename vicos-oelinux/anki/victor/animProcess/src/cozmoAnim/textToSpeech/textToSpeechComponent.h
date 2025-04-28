@@ -1,0 +1,157 @@
+/**
+* File: textToSpeechComponent.h
+*
+* Author: Molly Jameson
+* Created: 03/21/16
+*
+* Overhaul: Andrew Stein / Jordan Rivas, 08/18/16
+*
+* Description: Component wrapper to generate, cache and use wave data from a given string and style.
+*
+* Copyright: Anki, Inc. 2016
+*
+*/
+
+#ifndef __Anki_cozmo_cozmoAnim_textToSpeech_textToSpeechComponent_H__
+#define __Anki_cozmo_cozmoAnim_textToSpeech_textToSpeechComponent_H__
+
+#include "audioEngine/audioTools/standardWaveDataContainer.h"
+#include "coretech/common/shared/types.h"
+#include "clad/audio/audioEventTypes.h"
+#include "clad/audio/audioGameObjectTypes.h"
+#include "clad/types/sayTextStyles.h"
+#include "util/helpers/templateHelpers.h"
+#include <mutex>
+#include <unordered_map>
+
+// Forward declarations
+namespace Anki {
+  namespace Cozmo {
+    class AnimContext;
+    namespace Audio {
+      class CozmoAudioController;
+    }
+    namespace RobotInterface {
+      struct TextToSpeechStart;
+      struct TextToSpeechStop;
+    }
+    namespace TextToSpeech {
+      class TextToSpeechProvider;
+    }
+  }
+  namespace Util {
+    namespace Dispatch {
+      class Queue;
+    }
+  }
+}
+
+namespace Anki {
+namespace Cozmo {
+
+class TextToSpeechComponent
+{
+public:
+
+  TextToSpeechComponent(const AnimContext* context);
+  ~TextToSpeechComponent();
+
+  // CLAD message handlers
+  void HandleMessage(const RobotInterface::TextToSpeechStart& msg);
+  void HandleMessage(const RobotInterface::TextToSpeechStop& msg);
+
+private:
+  // -------------------------------------------------------------------------------------------------------------------
+  // Private types
+  // -------------------------------------------------------------------------------------------------------------------
+  using AudioController = Anki::Cozmo::Audio::CozmoAudioController;
+  using TextToSpeechProvider = Anki::Cozmo::TextToSpeech::TextToSpeechProvider;
+  using DispatchQueue = Anki::Util::Dispatch::Queue;
+  using TTSID_t = uint8_t;
+
+  // TTS creation state
+  enum class AudioCreationState {
+    None,       // Does NOT exist
+    Preparing,  // In process of creating data
+    Ready       // Data is ready to use
+  };
+
+  // TTS data bundle
+  struct TtsBundle {
+    AudioCreationState state                          = AudioCreationState::None;
+    AudioEngine::StandardWaveDataContainer* waveData  = nullptr;
+    ~TtsBundle() { Util::SafeDelete(waveData); }
+  };
+
+  // -------------------------------------------------------------------------------------------------------------------
+  // Private members
+  // -------------------------------------------------------------------------------------------------------------------
+
+  static constexpr TTSID_t kInvalidTTSID = 0;
+
+  // Internal mutex
+  mutable std::mutex _lock;
+
+  // Map of data bundles
+  std::unordered_map<TTSID_t, TtsBundle> _ttsWaveDataMap;
+
+  // Audio controller provided by context
+  AudioController * _audioController = nullptr;
+
+  // Worker thread
+  DispatchQueue * _dispatchQueue = nullptr;
+
+  // Platform-specific provider
+  std::unique_ptr<TextToSpeechProvider> _pvdr;
+
+  // -------------------------------------------------------------------------------------------------------------------
+  // Private methods
+  // -------------------------------------------------------------------------------------------------------------------
+
+  // Use Text to Speech lib to create audio data & reformat into StandardWaveData format
+  // Return nullptr if Text to Speech lib fails to create audio data
+  AudioEngine::StandardWaveDataContainer* CreateAudioData(const std::string& text,
+                                                          SayTextVoiceStyle style,
+                                                          float durationScalar);
+
+  // Find TtsBundle for operation
+  const TtsBundle* GetTtsBundle(const TTSID_t ttsID) const;
+
+  TtsBundle* GetTtsBundle(const TTSID_t ttsID);
+
+  // Asynchronous create the wave data for the given text and style, to be played later
+  // Use GetOperationState() to check if wave data is Ready
+  // Return RESULT_OK on success
+  Result CreateSpeech(const TTSID_t ttsID, const std::string& text, const SayTextVoiceStyle style, const float durationScalar);
+
+  // Get the current state of the create speech operation
+  AudioCreationState GetOperationState(const TTSID_t ttsID) const;
+
+  // Set up Audio Engine to play text's audio data
+  // out_duration_ms provides approximate duration of event before processing in audio engine
+  // Return false if the audio has NOT been created or is not yet ready, out_duration_ms will NOT be valid.
+  // NOTE: If this method is able to pass speech audio data ownership to plugin it will call ClearOperationData()
+  // TODO: Currently there is only 1 source plugin for inserting audio it would be nice to have more
+  bool PrepareAudioEngine(const TTSID_t ttsID, const SayTextVoiceStyle style, float& out_duration_ms);
+
+  // Clear Speech audio data from audio engine and clear operation data
+  // TODO: Currently there is only 1 source plugin for inserting audio it would be nice to have more
+  void CleanupAudioEngine(const TTSID_t ttsID);
+
+  // Clear speech operation audio data from memory
+  void ClearOperationData(const TTSID_t ttsID);
+
+  // Clear ALL loaded text audio data from memory
+  void ClearAllLoadedAudioData();
+
+  void SetAudioProcessingStyle(SayTextVoiceStyle style);
+  void SetAudioProcessingPitch(float pitchScalar);
+
+}; // class TextToSpeechComponent
+
+
+} // end namespace Cozmo
+} // end namespace Anki
+
+
+#endif //__Anki_cozmo_cozmoAnim_textToSpeech_textToSpeechComponent_H__

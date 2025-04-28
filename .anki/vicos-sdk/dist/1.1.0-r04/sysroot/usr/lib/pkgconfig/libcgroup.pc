@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libcgroup
+Description: Control Group Configuration Library
+Version: 0.41
+Libs: -L${libdir} -lcgroup
+Cflags: -I${includedir}

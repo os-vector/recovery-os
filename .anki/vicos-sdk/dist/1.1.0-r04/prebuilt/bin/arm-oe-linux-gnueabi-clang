@@ -1,0 +1,14 @@
+#!/bin/bash
+BASE=$(dirname $0)
+SYSROOT="${BASE}/../../sysroot"
+TARGET=arm-oe-linux-gnueabi
+PLATFORM_FLAGS="-march=armv7-a -mfloat-abi=softfp -mfpu=neon"
+COMPILER_PATH="${SYSROOT}/usr/lib/${TARGET}/4.9.3"
+
+exec env COMPILER_PATH="${COMPILER_PATH}" \
+    	 "${BASE}/clang"   --target=${TARGET} \
+        	            --sysroot="${SYSROOT}" \
+            	            -isysroot "${SYSROOT}" \
+                    	    --gcc-toolchain="${BASE}" \
+                            ${PLATFORM_FLAGS} \
+                    "$@"

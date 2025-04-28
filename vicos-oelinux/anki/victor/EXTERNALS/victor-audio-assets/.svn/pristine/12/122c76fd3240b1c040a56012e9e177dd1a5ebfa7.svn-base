@@ -1,0 +1,813 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Victor_Linux",
+  "BasePlatform": "Android",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\",
+   "SourceFilesRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\.cache\\Victor_Linux\\",
+   "SoundBanksRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Victor_Linux\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\BuildAgent\\work\\ca416fb87b732fe7\\trunk\\VictorAudio\\GeneratedSoundBanks\\Victor_Linux\\"
+  },
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{D03C9B07-8662-40B8-AAA6-C8C666854954}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1237348851",
+      "Name": "Play__Codelab__SFX_Cube_Light",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Cube_Light",
+      "GUID": "{AB4F42E3-CD29-45C2-B6B9-7BC4E66423B6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697392",
+      "DurationMax": "0.697392"
+     },
+     {
+      "Id": "1551222965",
+      "Name": "Play__Codelab__SFX_Game_Lose",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Game_Lose",
+      "GUID": "{284D4C1A-EFB7-497E-8AB8-AEB8C51BEAF5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.466531",
+      "DurationMax": "1.466531"
+     },
+     {
+      "Id": "2440620400",
+      "Name": "Play__Codelab__SFX_Game_Win",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Game_Win",
+      "GUID": "{E7F7F5D0-3165-4B0A-90BC-F1EB1BD54076}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.236450",
+      "DurationMax": "1.236450"
+     },
+     {
+      "Id": "1379908684",
+      "Name": "Play__Codelab__SFX_Hot_Potato_Cube_Ready",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Hot_Potato_Cube_Ready",
+      "GUID": "{992EF2D6-12D4-4C7B-A84A-1E114F97A0BF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.753107",
+      "DurationMax": "1.753107"
+     },
+     {
+      "Id": "17262752",
+      "Name": "Play__Codelab__SFX_Hot_Potato_Pass",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Hot_Potato_Pass",
+      "GUID": "{5F2432C6-6416-48EB-8B44-341C60A56B98}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.787458",
+      "DurationMax": "1.787458"
+     },
+     {
+      "Id": "1167243172",
+      "Name": "Play__Codelab__SFX_Hot_Potato_Timer_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Hot_Potato_Timer_End",
+      "GUID": "{8DC0312B-FA96-4391-9274-22EA4076E558}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.752437",
+      "DurationMax": "0.752437"
+     },
+     {
+      "Id": "4071915446",
+      "Name": "Play__Codelab__SFX_Magic8_Message_Reveal",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Magic8_Message_Reveal",
+      "GUID": "{65B30CA6-FF17-42D1-914E-2EB0AC6DDF2A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.959547",
+      "DurationMax": "0.959547"
+     },
+     {
+      "Id": "3253652261",
+      "Name": "Play__Codelab__SFX_Magnet_Attract",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Magnet_Attract",
+      "GUID": "{1C587C57-C11B-484C-9635-F142B6A28EB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.757479",
+      "DurationMax": "0.757479"
+     },
+     {
+      "Id": "131125164",
+      "Name": "Play__Codelab__SFX_Magnet_Repel",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Magnet_Repel",
+      "GUID": "{38CEFF73-67BF-46F9-905E-195B2CD62ADD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.332125",
+      "DurationMax": "1.332125"
+     },
+     {
+      "Id": "3959673678",
+      "Name": "Play__Codelab__SFX_Shared_Countdown",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Countdown",
+      "GUID": "{95201B40-2D98-49D5-BEE9-444737BD2B31}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.140816",
+      "DurationMax": "1.140816"
+     },
+     {
+      "Id": "2279105405",
+      "Name": "Play__Codelab__SFX_Shared_Cube_Light_On",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Cube_Light_On",
+      "GUID": "{5C991211-7CB3-4CFC-8B74-01261D76790E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697392",
+      "DurationMax": "0.697392"
+     },
+     {
+      "Id": "2368558265",
+      "Name": "Play__Codelab__SFX_Shared_Error",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Error",
+      "GUID": "{98192410-B051-4CFC-8FCD-848261B1834D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.138639",
+      "DurationMax": "1.138639"
+     },
+     {
+      "Id": "211381434",
+      "Name": "Play__Codelab__SFX_Shared_Success",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Success",
+      "GUID": "{F3E7CE90-1A89-4318-8E0A-27CD2BE908E5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.886167",
+      "DurationMax": "1.886167"
+     },
+     {
+      "Id": "3038792837",
+      "Name": "Play__Codelab__SFX_Shared_Timer_Click",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Timer_Click",
+      "GUID": "{276CBF94-7474-47F2-9A23-885EAE061239}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.194688",
+      "DurationMax": "0.194688"
+     },
+     {
+      "Id": "343938494",
+      "Name": "Play__Codelab__SFX_Shared_Timer_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Timer_End",
+      "GUID": "{89FF781B-6EE3-453C-B4EB-D92C7625B558}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.145918",
+      "DurationMax": "2.145918"
+     },
+     {
+      "Id": "1420860677",
+      "Name": "Play__Codelab__SFX_Shared_Timer_Warning",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Codelab__SFX\\Play__Codelab__SFX_Shared_Timer_Warning",
+      "GUID": "{0FE7F263-F72C-4087-8EF8-A43249E0B61D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.826667",
+      "DurationMax": "0.826667"
+     },
+     {
+      "Id": "1348118290",
+      "Name": "Play__SDK__SFX_Cube_Connected",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Cube_Connected",
+      "GUID": "{D8851420-3E00-4278-A4A2-3113D68DC476}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.178537",
+      "DurationMax": "1.178537"
+     },
+     {
+      "Id": "547519",
+      "Name": "Play__SDK__SFX_Cube_Light",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Cube_Light",
+      "GUID": "{F72EA673-DC33-436C-8484-B427A84563A3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697392",
+      "DurationMax": "0.697392"
+     },
+     {
+      "Id": "1471279738",
+      "Name": "Play__SDK__SFX_Cube_Light_Blue",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Cube_Light_Blue",
+      "GUID": "{F04A80B9-F291-4EF9-ACC0-55D155EFCF3C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.301312",
+      "DurationMax": "1.301312"
+     },
+     {
+      "Id": "1003135343",
+      "Name": "Play__SDK__SFX_Cube_Light_Red",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Cube_Light_Red",
+      "GUID": "{128F3672-E095-461C-83E1-7411B83E1896}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.263333",
+      "DurationMax": "1.263333"
+     },
+     {
+      "Id": "2688904298",
+      "Name": "Play__SDK__SFX_Cube_Light_Yellow",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Cube_Light_Yellow",
+      "GUID": "{6400F42A-EE0D-4EDB-8EC0-2CFBCE0BD33C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.346250",
+      "DurationMax": "1.346250"
+     },
+     {
+      "Id": "3133966309",
+      "Name": "Play__SDK__SFX_Game_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Game_End",
+      "GUID": "{74E5881A-D782-4032-B9AA-C1135A926351}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.482290",
+      "DurationMax": "2.482290"
+     },
+     {
+      "Id": "338534481",
+      "Name": "Play__SDK__SFX_Game_Lose",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Game_Lose",
+      "GUID": "{B148B808-3340-4DBD-9F1A-60D339774EE4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.466531",
+      "DurationMax": "1.466531"
+     },
+     {
+      "Id": "3215000236",
+      "Name": "Play__SDK__SFX_Game_Win",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Game_Win",
+      "GUID": "{05F74E3F-6F2D-4C0B-9EA5-0F61EB834B68}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.236450",
+      "DurationMax": "1.236450"
+     },
+     {
+      "Id": "1198938701",
+      "Name": "Play__SDK__SFX_Round_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SDK__SFX\\Play__SDK__SFX_Round_End",
+      "GUID": "{30EB1F4B-F67C-4EDF-ACD4-A2FE136A3EBA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.145918",
+      "DurationMax": "2.145918"
+     },
+     {
+      "Id": "3247701492",
+      "Name": "Play__SFX__Banner_Wipe",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Banner_Wipe",
+      "GUID": "{E2A96B04-FC32-42CF-9E26-7E3AABF72166}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.871162",
+      "DurationMax": "1.871162"
+     },
+     {
+      "Id": "2587766166",
+      "Name": "Play__SFX__Code_Fragment_Collected",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Code_Fragment_Collected",
+      "GUID": "{8DB24DE8-B3F5-4F1E-B121-83236C6F5629}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1918333736",
+      "Name": "Play__SFX__Code_Fragment_Released",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Code_Fragment_Released",
+      "GUID": "{76E71AC5-BAA6-48DE-94C2-C6D51125D119}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2378985973",
+      "Name": "Play__SFX__Cube_Feeding_Down",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Cube_Feeding_Down",
+      "GUID": "{44CC0234-69DE-412E-A18C-A3FDF126E5C7}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3618620556",
+      "Name": "Play__SFX__Cube_Feeding_Loop_Play",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Cube_Feeding_Loop_Play",
+      "GUID": "{1D998494-B0AB-4B78-8163-4AE9F979745A}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "3991319706",
+      "Name": "Play__SFX__Cube_Feeding_Success",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Cube_Feeding_Success",
+      "GUID": "{42641A86-7873-431B-875E-55A6D16D08B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.943399",
+      "DurationMax": "1.943399"
+     },
+     {
+      "Id": "1378697730",
+      "Name": "Play__SFX__Cube_Feeding_Up",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Cube_Feeding_Up",
+      "GUID": "{A3FE8EF0-E067-4CFD-9C27-61BC7AA0F20D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2897417442",
+      "Name": "Play__SFX__Daily_Reward_Calendar_Disappear",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Calendar_Disappear",
+      "GUID": "{D22D0D42-6CBE-4EEC-9893-C41927CDED6B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "878067460",
+      "Name": "Play__SFX__Daily_Reward_Collect",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Collect",
+      "GUID": "{A85902AF-2659-463C-8B20-DA5DC90BD470}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2538266513",
+      "Name": "Play__SFX__Daily_Reward_Disappear",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Disappear",
+      "GUID": "{96F8875E-348A-4D01-85A9-9B0B8B1E614C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2962215520",
+      "Name": "Play__SFX__Daily_Reward_Goal_Collect",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Goal_Collect",
+      "GUID": "{8A30F333-0E60-41EB-8662-0266E2A68A3F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1796529350",
+      "Name": "Play__SFX__Daily_Reward_Open",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Open",
+      "GUID": "{A457E7AE-6F38-4072-98C7-391E7D54F531}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2202351196",
+      "Name": "Play__SFX__Daily_Reward_Status",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Daily_Reward\\Play__SFX__Daily_Reward_Status",
+      "GUID": "{1FE871C1-CF96-499A-9BC6-B4FC26B24C29}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2709491700",
+      "Name": "Play__SFX__Emotion_Chip_Charged_Start",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Emotion_Chip_Charged_Start",
+      "GUID": "{38A9E149-82F4-4EBD-BC0F-9C1FE6FB0F61}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "53415191",
+      "Name": "Play__SFX__Emotion_Chip_Charged_Tap",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Emotion_Chip_Charged_Tap",
+      "GUID": "{B6E2D991-857E-4FC0-B449-C3DAA5F36689}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "132505315",
+      "Name": "Play__SFX__GP_Explorer_Night_Vision_Off",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Explorer\\Play__SFX__GP_Explorer_Night_Vision_Off",
+      "GUID": "{9E9844C7-6629-4946-9EDC-1CB260540FF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.757354",
+      "DurationMax": "0.757354"
+     },
+     {
+      "Id": "4183101071",
+      "Name": "Play__SFX__GP_Explorer_Night_Vision_On",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Explorer\\Play__SFX__GP_Explorer_Night_Vision_On",
+      "GUID": "{11627EB1-25C3-42ED-B74C-AE5F13D17D3C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.878854",
+      "DurationMax": "0.878854"
+     },
+     {
+      "Id": "944508478",
+      "Name": "Play__SFX__GP_MM_Light_Blue",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Simon\\Play__SFX__GP_MM_Light_Blue",
+      "GUID": "{ECA7FDD4-DACA-41F7-97E0-314AF6DF5C87}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.301312",
+      "DurationMax": "1.301312"
+     },
+     {
+      "Id": "153648099",
+      "Name": "Play__SFX__GP_MM_Light_Red",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Simon\\Play__SFX__GP_MM_Light_Red",
+      "GUID": "{F9354085-C34F-4A63-A27E-9A2857BA110D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.263333",
+      "DurationMax": "1.263333"
+     },
+     {
+      "Id": "771679342",
+      "Name": "Play__SFX__GP_MM_Light_Yellow",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Simon\\Play__SFX__GP_MM_Light_Yellow",
+      "GUID": "{F6378B72-4F37-432C-B071-6436AE4E6089}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.346250",
+      "DurationMax": "1.346250"
+     },
+     {
+      "Id": "2601428284",
+      "Name": "Play__SFX__GP_MM_Pattern_Start",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_MM\\Play__SFX__GP_MM_Pattern_Start",
+      "GUID": "{52414B15-1D88-4833-9FEF-FF1C6F1764C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.155917",
+      "DurationMax": "3.155917"
+     },
+     {
+      "Id": "3790068130",
+      "Name": "Play__SFX__GP_Shared_Block_Connect",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Shared\\Play__SFX__GP_Shared_Block_Connect",
+      "GUID": "{A3BF21F3-257F-49BB-A3E1-52029582CAE3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.178537",
+      "DurationMax": "1.178537"
+     },
+     {
+      "Id": "2218318430",
+      "Name": "Play__SFX__GP_Shared_Game_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Shared\\Play__SFX__GP_Shared_Game_End",
+      "GUID": "{4272203B-5DC5-4B33-9F32-CC697DCC9830}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.482290",
+      "DurationMax": "2.482290"
+     },
+     {
+      "Id": "1936634046",
+      "Name": "Play__SFX__GP_Shared_Request_Game",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Shared\\Play__SFX__GP_Shared_Request_Game",
+      "GUID": "{C9E71BAA-503F-47BF-BCB5-37516A5BE02D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.253946",
+      "DurationMax": "1.253946"
+     },
+     {
+      "Id": "3799430148",
+      "Name": "Play__SFX__GP_Shared_Round_End",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_Shared\\Play__SFX__GP_Shared_Round_End",
+      "GUID": "{841D094D-EEAB-4758-9646-DADB97588289}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.145918",
+      "DurationMax": "2.145918"
+     },
+     {
+      "Id": "2843679148",
+      "Name": "Play__SFX__GP_ST_Cube_Cozmo_Tap",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_ST\\Play__SFX__GP_ST_Cube_Cozmo_Tap",
+      "GUID": "{C8ED63A4-F35D-4DF3-BC70-099B7F09191E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.949923",
+      "DurationMax": "0.949923"
+     },
+     {
+      "Id": "231361703",
+      "Name": "Play__SFX__GP_ST_Lightup",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_ST\\Play__SFX__GP_ST_Lightup",
+      "GUID": "{F8D4DBF0-FE6C-404B-84B4-931CC16F7757}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.697392",
+      "DurationMax": "0.697392"
+     },
+     {
+      "Id": "4278097031",
+      "Name": "Play__SFX__GP_ST_Lose",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_ST\\Play__SFX__GP_ST_Lose",
+      "GUID": "{8033E3F4-D286-4263-A08F-810FDBE8E797}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.466531",
+      "DurationMax": "1.466531"
+     },
+     {
+      "Id": "600994811",
+      "Name": "Play__SFX__GP_ST_Tap_Red",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_ST\\Play__SFX__GP_ST_Tap_Red",
+      "GUID": "{2F122A01-4E14-4822-B548-B731BCE38D2E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.138639",
+      "DurationMax": "1.138639"
+     },
+     {
+      "Id": "2704467806",
+      "Name": "Play__SFX__GP_ST_Win",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__GP_ST\\Play__SFX__GP_ST_Win",
+      "GUID": "{047A1DE4-6030-453E-8B55-259756859454}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.236450",
+      "DurationMax": "1.236450"
+     },
+     {
+      "Id": "262762452",
+      "Name": "Play__SFX__Nurture_Background_Appear_Onboarding",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Background_Appear_Onboarding",
+      "GUID": "{3D524EF9-39A8-47B9-B0EC-6535C8A066BB}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.999063",
+      "DurationMax": "2.999063"
+     },
+     {
+      "Id": "2011411516",
+      "Name": "Play__SFX__Nurture_Earn_Bonus_Box",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Earn_Bonus_Box",
+      "GUID": "{DBC605C1-05B1-4D8B-9AC3-06752090F76C}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.080000",
+      "DurationMax": "6.080000"
+     },
+     {
+      "Id": "2096533448",
+      "Name": "Play__SFX__Nurture_Earn_Token",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Earn_Token",
+      "GUID": "{FC8FDEBB-B331-4E4F-97B9-FB7E4B3A883C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.086521",
+      "DurationMax": "2.086521"
+     },
+     {
+      "Id": "2123372857",
+      "Name": "Play__SFX__Nurture_Meter_Appear",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Appear",
+      "GUID": "{7469E35D-18D3-4C8F-8998-CE9DD7AAD2D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.999063",
+      "DurationMax": "2.999063"
+     },
+     {
+      "Id": "2779592687",
+      "Name": "Play__SFX__Nurture_Meter_Appear_Onboarding",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Appear_Onboarding",
+      "GUID": "{7BAC290D-7D63-45D7-BCBA-18993201061E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.999063",
+      "DurationMax": "2.999063"
+     },
+     {
+      "Id": "3230535882",
+      "Name": "Play__SFX__Nurture_Meter_Down",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Down",
+      "GUID": "{E644FD70-48A9-4BF5-AE0E-E4381271626E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.884240",
+      "DurationMax": "0.884240"
+     },
+     {
+      "Id": "2210253730",
+      "Name": "Play__SFX__Nurture_Meter_Down_Connected",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Down_Connected",
+      "GUID": "{78971DD4-5838-41D0-97C4-48CF8DDD53F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.884240",
+      "DurationMax": "0.884240"
+     },
+     {
+      "Id": "4064083045",
+      "Name": "Play__SFX__Nurture_Meter_Full",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Full",
+      "GUID": "{9668B5F4-CC96-4F42-BE05-EEC210FD81C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.715354",
+      "DurationMax": "1.715354"
+     },
+     {
+      "Id": "3001551979",
+      "Name": "Play__SFX__Nurture_Meter_Severe_Start",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Severe_Start",
+      "GUID": "{9DC07574-2B25-42FA-B062-5B2A129578CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.757292",
+      "DurationMax": "1.757292"
+     },
+     {
+      "Id": "1865902409",
+      "Name": "Play__SFX__Nurture_Meter_Up",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Up",
+      "GUID": "{81464A40-DC21-4193-B5F2-049EF3A5370A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.535523",
+      "DurationMax": "0.535523"
+     },
+     {
+      "Id": "3142067853",
+      "Name": "Play__SFX__Nurture_Meter_Up_Disconnected",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Meter_Up_Disconnected",
+      "GUID": "{50B6C27B-F522-444F-8B02-8298BA57A970}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.877000",
+      "DurationMax": "2.877000"
+     },
+     {
+      "Id": "3135833018",
+      "Name": "Play__SFX__Nurture_Popup",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Nurture_Popup",
+      "GUID": "{59BB4708-0D75-438D-A5E4-3F8307FFA913}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.505750",
+      "DurationMax": "0.505750"
+     },
+     {
+      "Id": "1823946677",
+      "Name": "Play__SFX__Onboarding_Test_Tone",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Onboarding_Test_Tone",
+      "GUID": "{787BC7A5-89E6-406F-8042-5DF309274D97}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.216396",
+      "DurationMax": "4.216396"
+     },
+     {
+      "Id": "3278074531",
+      "Name": "Play__SFX__Placeholder",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Placeholder",
+      "GUID": "{1ED11D27-4C5C-41EF-9A6A-6591655E9AB1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.200000",
+      "DurationMax": "0.200000"
+     },
+     {
+      "Id": "1770649520",
+      "Name": "Play__SFX__Relationship_Gain",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Relationship_Gain",
+      "GUID": "{9944DC8D-6044-453E-8A3B-2E353A208201}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "447401587",
+      "Name": "Play__SFX__Relationship_Gain_Collect",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Relationship_Gain_Collect",
+      "GUID": "{A922594E-733F-49ED-A481-5919FC25D878}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1047777997",
+      "Name": "Play__SFX__Repair_Calibrate",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Calibrate",
+      "GUID": "{CBCEA192-AD7E-4EEA-867B-D95564ED217E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.182562",
+      "DurationMax": "1.182562"
+     },
+     {
+      "Id": "3944925464",
+      "Name": "Play__SFX__Repair_Level_Success",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Repair_Level_Success",
+      "GUID": "{6BEEFA23-B50A-4EF5-98F5-7CD8204156D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.886167",
+      "DurationMax": "1.886167"
+     },
+     {
+      "Id": "1670593078",
+      "Name": "Play__SFX__Repair_Pattern_Complete",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Pattern_Complete",
+      "GUID": "{8F14D711-4585-45FF-8008-E0BD5C8358ED}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.812005",
+      "DurationMax": "0.812005"
+     },
+     {
+      "Id": "3820109879",
+      "Name": "Play__SFX__Repair_Pattern_Down",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Pattern_Down",
+      "GUID": "{69E45262-05FA-45BF-BA61-2030F32C12B3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.715292",
+      "DurationMax": "1.715292"
+     },
+     {
+      "Id": "2689322891",
+      "Name": "Play__SFX__Repair_Pattern_Error",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Pattern_Error",
+      "GUID": "{A2938559-B4AE-4036-B8A9-E5901248084E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.752437",
+      "DurationMax": "0.752437"
+     },
+     {
+      "Id": "4229457120",
+      "Name": "Play__SFX__Repair_Pattern_Up",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Pattern_Up",
+      "GUID": "{46AF85FF-8ABE-490D-832C-C3E68D324EED}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.540000",
+      "DurationMax": "1.540000"
+     },
+     {
+      "Id": "2465239373",
+      "Name": "Play__SFX__Repair_Scan",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Scan",
+      "GUID": "{28BBE45F-7566-4227-AE16-B5881118B886}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.267250",
+      "DurationMax": "2.267250"
+     },
+     {
+      "Id": "649332933",
+      "Name": "Play__SFX__Repair_Scan_Complete",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Scan_Complete",
+      "GUID": "{7BAB7B7C-B726-4DAE-92F5-186352B1918D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3969829927",
+      "Name": "Play__SFX__Repair_Success_Complete",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Success_Complete",
+      "GUID": "{F57F083E-98DB-4982-9A61-F6DD22F4893F}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.129437",
+      "DurationMax": "2.129437"
+     },
+     {
+      "Id": "1470861090",
+      "Name": "Play__SFX__Repair_Success_Round",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Play__SFX__Repair_Success_Round",
+      "GUID": "{8B742258-44B9-4368-BD54-EB37CAB3343B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.394174",
+      "DurationMax": "0.394174"
+     },
+     {
+      "Id": "821377663",
+      "Name": "Play__SFX__Repair_Tap_Arrow",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\Play__SFX__Repair_Tap_Arrow",
+      "GUID": "{95FD7902-845F-49FC-B032-D2FC0D76092B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2596085903",
+      "Name": "Play__SFX__Spark_Gain",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX_Spark\\Play__SFX__Spark_Gain",
+      "GUID": "{D63BD768-C0D9-4F28-BD2D-9C6FD874695C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.542917",
+      "DurationMax": "1.542917"
+     },
+     {
+      "Id": "38276463",
+      "Name": "Play__SFX__Spark_Launch",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX_Spark\\Play__SFX__Spark_Launch",
+      "GUID": "{1BB4695D-C647-499F-B45F-22ED9CA98C68}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.977108",
+      "DurationMax": "0.977108"
+     },
+     {
+      "Id": "3587224415",
+      "Name": "Play__SFX__Spark_Success",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX_Spark\\Play__SFX__Spark_Success",
+      "GUID": "{A7C05F07-9227-442C-ABB7-DC4BCAF1232E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3890113136",
+      "Name": "Stop__SFX__Cube_Feeding_Loop_Stop",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Stop__SFX__Cube_Feeding_Loop_Stop",
+      "GUID": "{229509D6-EBDE-4E84-87B1-AE21DB4FACC0}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1631036014",
+      "Name": "Stop__SFX__Repair_Scan_Stop",
+      "ObjectPath": "\\Events\\Gameplay_SFX\\SFX__Nurture\\Stop__SFX__Repair_Scan_Stop",
+      "GUID": "{717FE1B9-2EFB-492B-BB99-07473FBD82F7}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

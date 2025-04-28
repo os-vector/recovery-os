@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Dev_Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\</ProjectRoot>
+		<SourceFilesRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Dev_Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Dev_Mac\English(US)\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Dev_Mac\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3988466513" GUID="{38553F4D-4919-4A3A-A748-C0A43BF2C2E7}" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cozmo_Singing</ObjectPath>
+			<ShortName>Cozmo_Singing</ShortName>
+			<Path>English(US)\Cozmo_Singing.bnk</Path>
+			<IncludedEvents>
+				<Event Id="819632272" Name="Play__Robot_VO__Cozmo_Singing_100bpm" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Cozmo_Singing_100bpm" GUID="{26592A4C-46E7-462B-9197-A6E1755884F9}" DurationType="Infinite"/>
+				<Event Id="3805821586" Name="Play__Robot_VO__Cozmo_Singing_120bpm" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Cozmo_Singing_120bpm" GUID="{5253EB25-40BC-4E6F-8C88-1D0755567495}" DurationType="Infinite"/>
+				<Event Id="3519620195" Name="Play__Robot_VO__Cozmo_Singing_80bpm" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Cozmo_Singing_80bpm" GUID="{F570A508-6E6A-41AB-AB22-94D638CE5B40}" DurationType="Infinite"/>
+				<Event Id="2007174956" Name="Play__Robot_VO__Singing_Getin_1" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Singing_Getin_1" GUID="{319BD123-D116-4FA1-A954-60C157D63A21}" DurationType="OneShot" DurationMin="0.693268" DurationMax="0.927023"/>
+				<Event Id="2007174959" Name="Play__Robot_VO__Singing_Getin_2" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Singing_Getin_2" GUID="{C81AD262-7A52-4C84-A9D6-F6D3D62F28BF}" DurationType="OneShot" DurationMin="0.885019" DurationMax="1.143023"/>
+				<Event Id="2007174958" Name="Play__Robot_VO__Singing_Getin_3" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Play__Robot_VO__Singing_Getin_3" GUID="{D0710BA8-D2D9-4BBE-95D7-874C37EBEA71}" DurationType="OneShot" DurationMin="0.753544" DurationMax="0.991000"/>
+				<Event Id="3704466058" Name="Stop__Robot_VO__Cozmo_Singing_Stop" ObjectPath="\Events\Cozmo_Robot_Voice\Robot_Vo__Singing\Stop__Robot_VO__Cozmo_Singing_Stop" GUID="{8B101C86-19C9-4FD0-B14B-F5C095B3B933}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="1887412" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_F1591D63.wem</Path>
+				</File>
+				<File Id="10429229" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_03_WM_43DFF992.wem</Path>
+				</File>
+				<File Id="12877057" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_02_WM_ED218236.wem</Path>
+				</File>
+				<File Id="27740573" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_3BC6F68F.wem</Path>
+				</File>
+				<File Id="34992169" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_03_WM_2398F478.wem</Path>
+				</File>
+				<File Id="45664262" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_F0C843A3.wem</Path>
+				</File>
+				<File Id="47850628" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_6CCFC3DA.wem</Path>
+				</File>
+				<File Id="52003741" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_326422CD.wem</Path>
+				</File>
+				<File Id="81750971" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_02_WM_92F2D408.wem</Path>
+				</File>
+				<File Id="85449665" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_8B5A9C9A.wem</Path>
+				</File>
+				<File Id="89808013" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_01_WM_AB0F6732.wem</Path>
+				</File>
+				<File Id="90905654" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_4A64EBB0.wem</Path>
+				</File>
+				<File Id="91793269" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_01_WM_E00D433F.wem</Path>
+				</File>
+				<File Id="112008643" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_01_WM_0CFADBDC.wem</Path>
+				</File>
+				<File Id="133127282" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_02_WM_2FC2ED81.wem</Path>
+				</File>
+				<File Id="135885705" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_4F1DFE8A.wem</Path>
+				</File>
+				<File Id="136701791" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_03_WM_F2B360F7.wem</Path>
+				</File>
+				<File Id="139933283" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_03_WM_195DF780.wem</Path>
+				</File>
+				<File Id="148285695" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_02_WM_9BDC9199.wem</Path>
+				</File>
+				<File Id="165805702" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_01_WM_B2F5A5C6.wem</Path>
+				</File>
+				<File Id="176501133" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_02_WM_5B4A2845.wem</Path>
+				</File>
+				<File Id="178101840" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_1E2B2E15.wem</Path>
+				</File>
+				<File Id="183967431" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_03_WM_4A0B2041.wem</Path>
+				</File>
+				<File Id="189864516" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_02A7B757.wem</Path>
+				</File>
+				<File Id="204916774" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_01_WM_53B86AD1.wem</Path>
+				</File>
+				<File Id="213551102" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_0BE7A56B.wem</Path>
+				</File>
+				<File Id="225777242" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_02_WM_8FFF2A92.wem</Path>
+				</File>
+				<File Id="226514782" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_7AA34BBD.wem</Path>
+				</File>
+				<File Id="232359526" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_DB80F7BD.wem</Path>
+				</File>
+				<File Id="246833008" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_BF63C188.wem</Path>
+				</File>
+				<File Id="246944941" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_48E7ABE4.wem</Path>
+				</File>
+				<File Id="253381572" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_01_WM_8A2828EA.wem</Path>
+				</File>
+				<File Id="280638271" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_624D54E0.wem</Path>
+				</File>
+				<File Id="287022016" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_01_WM_A9E47A93.wem</Path>
+				</File>
+				<File Id="297252380" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_D4B00AF9.wem</Path>
+				</File>
+				<File Id="301534574" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_02_WM_2A36BC65.wem</Path>
+				</File>
+				<File Id="306714218" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_B9EC317E.wem</Path>
+				</File>
+				<File Id="314220657" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_03_WM_10F4AE82.wem</Path>
+				</File>
+				<File Id="314248904" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_A6F7412C.wem</Path>
+				</File>
+				<File Id="325463770" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_B19DBEEF.wem</Path>
+				</File>
+				<File Id="326780340" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_02_WM_99201C56.wem</Path>
+				</File>
+				<File Id="350471231" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_9AFFC78A.wem</Path>
+				</File>
+				<File Id="352876753" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_598984A2.wem</Path>
+				</File>
+				<File Id="362776130" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_0B269D33.wem</Path>
+				</File>
+				<File Id="370133342" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_03_WM_38F4DED3.wem</Path>
+				</File>
+				<File Id="374454329" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_03_WM_0CDB658A.wem</Path>
+				</File>
+				<File Id="383926861" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_17380DF4.wem</Path>
+				</File>
+				<File Id="387845078" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_02_WM_F0B9447A.wem</Path>
+				</File>
+				<File Id="447861033" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_03_WM_D0A4074E.wem</Path>
+				</File>
+				<File Id="452623763" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_01_WM_B36AD16C.wem</Path>
+				</File>
+				<File Id="456082287" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_01_WM_04C80B6A.wem</Path>
+				</File>
+				<File Id="456167551" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_1A6C84AA.wem</Path>
+				</File>
+				<File Id="468508748" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_02_WM_C6D2DE30.wem</Path>
+				</File>
+				<File Id="473354865" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_03_WM_C0A50F33.wem</Path>
+				</File>
+				<File Id="482397336" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_03_WM_70A0480F.wem</Path>
+				</File>
+				<File Id="495030842" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_E74C59AB.wem</Path>
+				</File>
+				<File Id="496786915" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_03_WM_ED897193.wem</Path>
+				</File>
+				<File Id="504029856" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_F7267180.wem</Path>
+				</File>
+				<File Id="516226282" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_E961F8B2.wem</Path>
+				</File>
+				<File Id="522973929" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_28CDA25B.wem</Path>
+				</File>
+				<File Id="530190199" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_F2C90446.wem</Path>
+				</File>
+				<File Id="531730679" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_01_WM_1399CDF5.wem</Path>
+				</File>
+				<File Id="537765525" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_03_WM_F571BB07.wem</Path>
+				</File>
+				<File Id="569456906" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_28D8E99F.wem</Path>
+				</File>
+				<File Id="598975728" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_02_WM_3110D6B2.wem</Path>
+				</File>
+				<File Id="613390189" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_01_WM_7463C99F.wem</Path>
+				</File>
+				<File Id="627108388" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_92933C1E.wem</Path>
+				</File>
+				<File Id="631808131" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_40BE3787.wem</Path>
+				</File>
+				<File Id="639338617" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_D412F50B.wem</Path>
+				</File>
+				<File Id="643247489" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_16068504.wem</Path>
+				</File>
+				<File Id="648001272" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_A97232A8.wem</Path>
+				</File>
+				<File Id="651861256" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_53069740.wem</Path>
+				</File>
+				<File Id="653543602" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_2A58D0D4.wem</Path>
+				</File>
+				<File Id="654663227" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_A36A6565.wem</Path>
+				</File>
+				<File Id="665544181" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_01_WM_B8457D34.wem</Path>
+				</File>
+				<File Id="670834988" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_0A8ABF67.wem</Path>
+				</File>
+				<File Id="678983453" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_02_WM_3D17AD7B.wem</Path>
+				</File>
+				<File Id="712222227" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_DA60BA68.wem</Path>
+				</File>
+				<File Id="735158718" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_1DA22CC0.wem</Path>
+				</File>
+				<File Id="736051801" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_5C7B30DC.wem</Path>
+				</File>
+				<File Id="759078686" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_357C78B1.wem</Path>
+				</File>
+				<File Id="768661382" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_EABF802F.wem</Path>
+				</File>
+				<File Id="795919431" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_02_WM_62AE0522.wem</Path>
+				</File>
+				<File Id="806189760" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_02_WM_4E7F3395.wem</Path>
+				</File>
+				<File Id="811999133" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_01_WM_76E86573.wem</Path>
+				</File>
+				<File Id="817693800" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_01_WM_2352A458.wem</Path>
+				</File>
+				<File Id="830382318" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_02_WM_0250B97E.wem</Path>
+				</File>
+				<File Id="832364645" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_89D18633.wem</Path>
+				</File>
+				<File Id="838567493" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_700D01D4.wem</Path>
+				</File>
+				<File Id="842797044" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_03_WM_3FEF20CF.wem</Path>
+				</File>
+				<File Id="867962065" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_9CA29D10.wem</Path>
+				</File>
+				<File Id="870302794" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_02_WM_72278D98.wem</Path>
+				</File>
+				<File Id="903601845" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_02_WM_2B2563D5.wem</Path>
+				</File>
+				<File Id="917175238" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_AEA6CDE8.wem</Path>
+				</File>
+				<File Id="917280422" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_01_WM_F50F15B1.wem</Path>
+				</File>
+				<File Id="924828508" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_03_WM_7DD8D315.wem</Path>
+				</File>
+				<File Id="929875403" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_01_WM_424D2C92.wem</Path>
+				</File>
+				<File Id="933648162" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_01_WM_60E09E30.wem</Path>
+				</File>
+				<File Id="957628707" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_03_WM_548D2CBB.wem</Path>
+				</File>
+				<File Id="974538327" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_3123FA28.wem</Path>
+				</File>
+				<File Id="977280851" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_01_WM_9FE25441.wem</Path>
+				</File>
+				<File Id="979554697" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_03_WM_2014D0A2.wem</Path>
+				</File>
+				<File Id="981078971" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_01_WM_9D901C47.wem</Path>
+				</File>
+				<File Id="997729011" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_02_WM_8353044B.wem</Path>
+				</File>
+				<File Id="1009403048" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_229DC352.wem</Path>
+				</File>
+				<File Id="1013342711" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_F6D5C719.wem</Path>
+				</File>
+				<File Id="1015167262" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_03_WM_664DEE0F.wem</Path>
+				</File>
+				<File Id="1032045053" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_B844467F.wem</Path>
+				</File>
+				<File Id="1036586060" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_02_WM_D7E1966D.wem</Path>
+				</File>
+				<File Id="1040868685" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_477B88A6.wem</Path>
+				</File>
+				<File Id="1059192046" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_03_WM_6AABCD15.wem</Path>
+				</File>
+				<File Id="1060726593" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_01_WM_84E14492.wem</Path>
+				</File>
+				<File Id="1063271033" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_02_WM_6217808F.wem</Path>
+				</File>
+				<File Id="1065664274" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_03_WM_788C7F9B.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="1887412" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_F1591D63.wem</Path>
+					<PrefetchSize>2279</PrefetchSize>
+				</File>
+				<File Id="2087930" Language="SFX">
+					<ShortName>CZM_Mid_Oh_My_Darlin.mid</ShortName>
+					<Path>SFX\CZM_Mid_Oh_My_Darlin_00000000.wem</Path>
+				</File>
+				<File Id="10429229" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_03_WM_43DFF992.wem</Path>
+					<PrefetchSize>2687</PrefetchSize>
+				</File>
+				<File Id="12877057" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_02_WM_ED218236.wem</Path>
+					<PrefetchSize>2690</PrefetchSize>
+				</File>
+				<File Id="19278468" Language="SFX">
+					<ShortName>CZM_Mid_Hush_Little_Baby.mid</ShortName>
+					<Path>SFX\CZM_Mid_Hush_Little_Baby_00000000.wem</Path>
+				</File>
+				<File Id="26440277" Language="SFX">
+					<ShortName>CZM_Mid_Cozmambo.mid</ShortName>
+					<Path>SFX\CZM_Mid_Cozmambo_00000000.wem</Path>
+				</File>
+				<File Id="26763440" Language="SFX">
+					<ShortName>CZM_Mid_Twinkle_Twinkle.mid</ShortName>
+					<Path>SFX\CZM_Mid_Twinkle_Twinkle_00000000.wem</Path>
+				</File>
+				<File Id="27740573" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_3BC6F68F.wem</Path>
+					<PrefetchSize>2422</PrefetchSize>
+				</File>
+				<File Id="34992169" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_03_WM_2398F478.wem</Path>
+					<PrefetchSize>3170</PrefetchSize>
+				</File>
+				<File Id="45664262" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_F0C843A3.wem</Path>
+					<PrefetchSize>2878</PrefetchSize>
+				</File>
+				<File Id="47850628" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_6CCFC3DA.wem</Path>
+					<PrefetchSize>2184</PrefetchSize>
+				</File>
+				<File Id="52003741" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_326422CD.wem</Path>
+					<PrefetchSize>2607</PrefetchSize>
+				</File>
+				<File Id="52237197" Language="SFX">
+					<ShortName>CZM_Mid_Mary_Had_Little_Lamb.mid</ShortName>
+					<Path>SFX\CZM_Mid_Mary_Had_Little_Lamb_00000000.wem</Path>
+				</File>
+				<File Id="81750971" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_02_WM_92F2D408.wem</Path>
+					<PrefetchSize>2361</PrefetchSize>
+				</File>
+				<File Id="83703047" Language="SFX">
+					<ShortName>CZM_Mid_Can_Can_2.mid</ShortName>
+					<Path>SFX\CZM_Mid_Can_Can_2_00000000.wem</Path>
+				</File>
+				<File Id="85449665" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_8B5A9C9A.wem</Path>
+					<PrefetchSize>2722</PrefetchSize>
+				</File>
+				<File Id="89808013" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_01_WM_AB0F6732.wem</Path>
+					<PrefetchSize>2268</PrefetchSize>
+				</File>
+				<File Id="90905654" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_4A64EBB0.wem</Path>
+					<PrefetchSize>2144</PrefetchSize>
+				</File>
+				<File Id="91793269" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_01_WM_E00D433F.wem</Path>
+					<PrefetchSize>2797</PrefetchSize>
+				</File>
+				<File Id="110795270" Language="SFX">
+					<ShortName>CZM_Mid_Row_Your_Boat.mid</ShortName>
+					<Path>SFX\CZM_Mid_Row_Your_Boat_00000000.wem</Path>
+				</File>
+				<File Id="112008643" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_01_WM_0CFADBDC.wem</Path>
+					<PrefetchSize>2426</PrefetchSize>
+				</File>
+				<File Id="133127282" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_02_WM_2FC2ED81.wem</Path>
+					<PrefetchSize>2960</PrefetchSize>
+				</File>
+				<File Id="135885705" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_4F1DFE8A.wem</Path>
+					<PrefetchSize>2599</PrefetchSize>
+				</File>
+				<File Id="136701791" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_03_WM_F2B360F7.wem</Path>
+					<PrefetchSize>2999</PrefetchSize>
+				</File>
+				<File Id="139933283" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_03_WM_195DF780.wem</Path>
+					<PrefetchSize>2288</PrefetchSize>
+				</File>
+				<File Id="148285695" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_02_WM_9BDC9199.wem</Path>
+					<PrefetchSize>2375</PrefetchSize>
+				</File>
+				<File Id="152193259" Language="SFX">
+					<ShortName>CZM_Mid_Pop_Goes_The_Weasel.mid</ShortName>
+					<Path>SFX\CZM_Mid_Pop_Goes_The_Weasel_00000000.wem</Path>
+				</File>
+				<File Id="165805702" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_01_WM_B2F5A5C6.wem</Path>
+					<PrefetchSize>2258</PrefetchSize>
+				</File>
+				<File Id="169944346" Language="SFX">
+					<ShortName>CZM_Mid_Wild_About_Harry.mid</ShortName>
+					<Path>SFX\CZM_Mid_Wild_About_Harry_00000000.wem</Path>
+				</File>
+				<File Id="176501133" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_02_WM_5B4A2845.wem</Path>
+					<PrefetchSize>2321</PrefetchSize>
+				</File>
+				<File Id="178101840" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_1E2B2E15.wem</Path>
+					<PrefetchSize>2266</PrefetchSize>
+				</File>
+				<File Id="179782611" Language="SFX">
+					<ShortName>CZM_Mid_Hello_My_Baby.mid</ShortName>
+					<Path>SFX\CZM_Mid_Hello_My_Baby_00000000.wem</Path>
+				</File>
+				<File Id="183967431" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_03_WM_4A0B2041.wem</Path>
+					<PrefetchSize>2737</PrefetchSize>
+				</File>
+				<File Id="189864516" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_02A7B757.wem</Path>
+					<PrefetchSize>2585</PrefetchSize>
+				</File>
+				<File Id="202485839" Language="SFX">
+					<ShortName>CZM_Mid_Muss_I_Denn.mid</ShortName>
+					<Path>SFX\CZM_Mid_Muss_I_Denn_00000000.wem</Path>
+				</File>
+				<File Id="204916774" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_01_WM_53B86AD1.wem</Path>
+					<PrefetchSize>2833</PrefetchSize>
+				</File>
+				<File Id="213551102" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_0BE7A56B.wem</Path>
+					<PrefetchSize>2292</PrefetchSize>
+				</File>
+				<File Id="216476034" Language="SFX">
+					<ShortName>CZM_Mid_Camptown.mid</ShortName>
+					<Path>SFX\CZM_Mid_Camptown_00000000.wem</Path>
+				</File>
+				<File Id="225280179" Language="SFX">
+					<ShortName>CZM_Mid_Sakura.mid</ShortName>
+					<Path>SFX\CZM_Mid_Sakura_00000000.wem</Path>
+				</File>
+				<File Id="225777242" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_02_WM_8FFF2A92.wem</Path>
+					<PrefetchSize>2933</PrefetchSize>
+				</File>
+				<File Id="226514782" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_7AA34BBD.wem</Path>
+					<PrefetchSize>2870</PrefetchSize>
+				</File>
+				<File Id="232359526" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_DB80F7BD.wem</Path>
+					<PrefetchSize>2195</PrefetchSize>
+				</File>
+				<File Id="246833008" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_BF63C188.wem</Path>
+					<PrefetchSize>2831</PrefetchSize>
+				</File>
+				<File Id="246944941" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_48E7ABE4.wem</Path>
+					<PrefetchSize>2987</PrefetchSize>
+				</File>
+				<File Id="253381572" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_01_WM_8A2828EA.wem</Path>
+					<PrefetchSize>2267</PrefetchSize>
+				</File>
+				<File Id="279810227" Language="SFX">
+					<ShortName>CZM_Mid_Buffalo_Gals.mid</ShortName>
+					<Path>SFX\CZM_Mid_Buffalo_Gals_00000000.wem</Path>
+				</File>
+				<File Id="280638271" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_624D54E0.wem</Path>
+					<PrefetchSize>2603</PrefetchSize>
+				</File>
+				<File Id="287022016" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_01_WM_A9E47A93.wem</Path>
+					<PrefetchSize>2248</PrefetchSize>
+				</File>
+				<File Id="297252380" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_D4B00AF9.wem</Path>
+					<PrefetchSize>2608</PrefetchSize>
+				</File>
+				<File Id="301534574" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_02_WM_2A36BC65.wem</Path>
+					<PrefetchSize>2750</PrefetchSize>
+				</File>
+				<File Id="306714218" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_B9EC317E.wem</Path>
+					<PrefetchSize>2612</PrefetchSize>
+				</File>
+				<File Id="311130337" Language="SFX">
+					<ShortName>CZM_Mid_Danny_Boy.mid</ShortName>
+					<Path>SFX\CZM_Mid_Danny_Boy_00000000.wem</Path>
+				</File>
+				<File Id="314220657" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_03_WM_10F4AE82.wem</Path>
+					<PrefetchSize>2905</PrefetchSize>
+				</File>
+				<File Id="314248904" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_A6F7412C.wem</Path>
+					<PrefetchSize>2822</PrefetchSize>
+				</File>
+				<File Id="325463770" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_B19DBEEF.wem</Path>
+					<PrefetchSize>2591</PrefetchSize>
+				</File>
+				<File Id="326780340" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_02_WM_99201C56.wem</Path>
+					<PrefetchSize>2981</PrefetchSize>
+				</File>
+				<File Id="339547639" Language="SFX">
+					<ShortName>CZM_Mid_Toccata.mid</ShortName>
+					<Path>SFX\CZM_Mid_Toccata_00000000.wem</Path>
+				</File>
+				<File Id="346225724" Language="SFX">
+					<ShortName>CZM_Mid_Entry_Of_The_Gladiators.mid</ShortName>
+					<Path>SFX\CZM_Mid_Entry_Of_The_Gladiators_00000000.wem</Path>
+				</File>
+				<File Id="350471231" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_9AFFC78A.wem</Path>
+					<PrefetchSize>2361</PrefetchSize>
+				</File>
+				<File Id="352876753" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_598984A2.wem</Path>
+					<PrefetchSize>3234</PrefetchSize>
+				</File>
+				<File Id="362776130" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_0B269D33.wem</Path>
+					<PrefetchSize>2591</PrefetchSize>
+				</File>
+				<File Id="370133342" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_03_WM_38F4DED3.wem</Path>
+					<PrefetchSize>2708</PrefetchSize>
+				</File>
+				<File Id="374454329" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_03_WM_0CDB658A.wem</Path>
+					<PrefetchSize>2776</PrefetchSize>
+				</File>
+				<File Id="383926861" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_17380DF4.wem</Path>
+					<PrefetchSize>2620</PrefetchSize>
+				</File>
+				<File Id="387845078" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_02_WM_F0B9447A.wem</Path>
+					<PrefetchSize>2753</PrefetchSize>
+				</File>
+				<File Id="392350835" Language="SFX">
+					<ShortName>CZM_Mid_London_Bridge.mid</ShortName>
+					<Path>SFX\CZM_Mid_London_Bridge_00000000.wem</Path>
+				</File>
+				<File Id="413817215" Language="SFX">
+					<ShortName>CZM_Mid_Can_Can_1.mid</ShortName>
+					<Path>SFX\CZM_Mid_Can_Can_1_00000000.wem</Path>
+				</File>
+				<File Id="428300834" Language="SFX">
+					<ShortName>CZM_Mid_Habanera.mid</ShortName>
+					<Path>SFX\CZM_Mid_Habanera_00000000.wem</Path>
+				</File>
+				<File Id="447861033" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_03_WM_D0A4074E.wem</Path>
+					<PrefetchSize>2526</PrefetchSize>
+				</File>
+				<File Id="452623763" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_01_WM_B36AD16C.wem</Path>
+					<PrefetchSize>2912</PrefetchSize>
+				</File>
+				<File Id="454053824" Language="SFX">
+					<ShortName>CZM_Mid_Beautiful_Dreamer.mid</ShortName>
+					<Path>SFX\CZM_Mid_Beautiful_Dreamer_00000000.wem</Path>
+				</File>
+				<File Id="456082287" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_01_WM_04C80B6A.wem</Path>
+					<PrefetchSize>2301</PrefetchSize>
+				</File>
+				<File Id="456167551" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_1A6C84AA.wem</Path>
+					<PrefetchSize>2615</PrefetchSize>
+				</File>
+				<File Id="468508748" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_02_WM_C6D2DE30.wem</Path>
+					<PrefetchSize>2754</PrefetchSize>
+				</File>
+				<File Id="473354865" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_03_WM_C0A50F33.wem</Path>
+					<PrefetchSize>2227</PrefetchSize>
+				</File>
+				<File Id="482397336" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_03_WM_70A0480F.wem</Path>
+					<PrefetchSize>2486</PrefetchSize>
+				</File>
+				<File Id="495030842" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_E74C59AB.wem</Path>
+					<PrefetchSize>2316</PrefetchSize>
+				</File>
+				<File Id="496786915" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_03_WM_ED897193.wem</Path>
+					<PrefetchSize>2786</PrefetchSize>
+				</File>
+				<File Id="504029856" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_F7267180.wem</Path>
+					<PrefetchSize>2823</PrefetchSize>
+				</File>
+				<File Id="515006234" Language="SFX">
+					<ShortName>CZM_Mid_Happy_Birthday.mid</ShortName>
+					<Path>SFX\CZM_Mid_Happy_Birthday_00000000.wem</Path>
+				</File>
+				<File Id="516226282" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_E961F8B2.wem</Path>
+					<PrefetchSize>2379</PrefetchSize>
+				</File>
+				<File Id="516341845" Language="SFX">
+					<ShortName>CZM_Mid_Yellow_Rose.mid</ShortName>
+					<Path>SFX\CZM_Mid_Yellow_Rose_00000000.wem</Path>
+				</File>
+				<File Id="521837818" Language="SFX">
+					<ShortName>CZM_Mid_Farmer_In_The_Dell.mid</ShortName>
+					<Path>SFX\CZM_Mid_Farmer_In_The_Dell_00000000.wem</Path>
+				</File>
+				<File Id="522973929" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_28CDA25B.wem</Path>
+					<PrefetchSize>2410</PrefetchSize>
+				</File>
+				<File Id="530190199" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_F2C90446.wem</Path>
+					<PrefetchSize>2864</PrefetchSize>
+				</File>
+				<File Id="531730679" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_01_WM_1399CDF5.wem</Path>
+					<PrefetchSize>2762</PrefetchSize>
+				</File>
+				<File Id="532579095" Language="SFX">
+					<ShortName>CZM_Mid_Silvery_Moon.mid</ShortName>
+					<Path>SFX\CZM_Mid_Silvery_Moon_00000000.wem</Path>
+				</File>
+				<File Id="537765525" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_03_WM_F571BB07.wem</Path>
+					<PrefetchSize>2396</PrefetchSize>
+				</File>
+				<File Id="541759050" Language="SFX">
+					<ShortName>CZM_Mid_Mulberry_Bush.mid</ShortName>
+					<Path>SFX\CZM_Mid_Mulberry_Bush_00000000.wem</Path>
+				</File>
+				<File Id="569456906" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_28D8E99F.wem</Path>
+					<PrefetchSize>2475</PrefetchSize>
+				</File>
+				<File Id="598975728" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_02_WM_3110D6B2.wem</Path>
+					<PrefetchSize>2330</PrefetchSize>
+				</File>
+				<File Id="613390189" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_01_WM_7463C99F.wem</Path>
+					<PrefetchSize>2680</PrefetchSize>
+				</File>
+				<File Id="615137154" Language="SFX">
+					<ShortName>CZM_Mid_Beethovens_5th.mid</ShortName>
+					<Path>SFX\CZM_Mid_Beethovens_5th_00000000.wem</Path>
+				</File>
+				<File Id="623877833" Language="SFX">
+					<ShortName>CZM_Mid_Mountain_King.mid</ShortName>
+					<Path>SFX\CZM_Mid_Mountain_King_00000000.wem</Path>
+				</File>
+				<File Id="627108388" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_92933C1E.wem</Path>
+					<PrefetchSize>2747</PrefetchSize>
+				</File>
+				<File Id="631808131" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_40BE3787.wem</Path>
+					<PrefetchSize>2375</PrefetchSize>
+				</File>
+				<File Id="639338617" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_D412F50B.wem</Path>
+					<PrefetchSize>2309</PrefetchSize>
+				</File>
+				<File Id="643247489" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_16068504.wem</Path>
+					<PrefetchSize>2169</PrefetchSize>
+				</File>
+				<File Id="645385389" Language="SFX">
+					<ShortName>CZM_Mid_Water_Music.mid</ShortName>
+					<Path>SFX\CZM_Mid_Water_Music_00000000.wem</Path>
+				</File>
+				<File Id="648001272" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_A97232A8.wem</Path>
+					<PrefetchSize>2251</PrefetchSize>
+				</File>
+				<File Id="651861256" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_53069740.wem</Path>
+					<PrefetchSize>2398</PrefetchSize>
+				</File>
+				<File Id="653543602" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_01_WM_2A58D0D4.wem</Path>
+					<PrefetchSize>2956</PrefetchSize>
+				</File>
+				<File Id="654585462" Language="SFX">
+					<ShortName>CZM_Mid_Ode_To_Joy.mid</ShortName>
+					<Path>SFX\CZM_Mid_Ode_To_Joy_00000000.wem</Path>
+				</File>
+				<File Id="654663227" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_A36A6565.wem</Path>
+					<PrefetchSize>2387</PrefetchSize>
+				</File>
+				<File Id="662401081" Language="SFX">
+					<ShortName>CZM_Mid_Muffin_Man.mid</ShortName>
+					<Path>SFX\CZM_Mid_Muffin_Man_00000000.wem</Path>
+				</File>
+				<File Id="665544181" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_01_WM_B8457D34.wem</Path>
+					<PrefetchSize>2316</PrefetchSize>
+				</File>
+				<File Id="670834988" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_0A8ABF67.wem</Path>
+					<PrefetchSize>2118</PrefetchSize>
+				</File>
+				<File Id="675795107" Language="SFX">
+					<ShortName>CZM_Mid_Moonlight_Bay.mid</ShortName>
+					<Path>SFX\CZM_Mid_Moonlight_Bay_00000000.wem</Path>
+				</File>
+				<File Id="678983453" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_02_WM_3D17AD7B.wem</Path>
+					<PrefetchSize>2800</PrefetchSize>
+				</File>
+				<File Id="695075721" Language="SFX">
+					<ShortName>CZM_Mid_Aba_Daba.mid</ShortName>
+					<Path>SFX\CZM_Mid_Aba_Daba_00000000.wem</Path>
+				</File>
+				<File Id="700690312" Language="SFX">
+					<ShortName>CZM_Mid_Bingo.mid</ShortName>
+					<Path>SFX\CZM_Mid_Bingo_00000000.wem</Path>
+				</File>
+				<File Id="712222227" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_03_WM_DA60BA68.wem</Path>
+					<PrefetchSize>2819</PrefetchSize>
+				</File>
+				<File Id="714880726" Language="SFX">
+					<ShortName>CZM_Mid_Frere_Jacques.mid</ShortName>
+					<Path>SFX\CZM_Mid_Frere_Jacques_00000000.wem</Path>
+				</File>
+				<File Id="735158718" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_01_WM_1DA22CC0.wem</Path>
+					<PrefetchSize>2197</PrefetchSize>
+				</File>
+				<File Id="736051801" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_5C7B30DC.wem</Path>
+					<PrefetchSize>2414</PrefetchSize>
+				</File>
+				<File Id="758556061" Language="SFX">
+					<ShortName>CZM_Mid_Turkey_In_The_Straw.mid</ShortName>
+					<Path>SFX\CZM_Mid_Turkey_In_The_Straw_00000000.wem</Path>
+				</File>
+				<File Id="759078686" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_357C78B1.wem</Path>
+					<PrefetchSize>2868</PrefetchSize>
+				</File>
+				<File Id="768661382" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_EABF802F.wem</Path>
+					<PrefetchSize>2337</PrefetchSize>
+				</File>
+				<File Id="795919431" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_02_WM_62AE0522.wem</Path>
+					<PrefetchSize>2384</PrefetchSize>
+				</File>
+				<File Id="806189760" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_02_WM_4E7F3395.wem</Path>
+					<PrefetchSize>2215</PrefetchSize>
+				</File>
+				<File Id="811999133" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_01_WM_76E86573.wem</Path>
+					<PrefetchSize>2261</PrefetchSize>
+				</File>
+				<File Id="817693800" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G#2_Vel2_01_WM_2352A458.wem</Path>
+					<PrefetchSize>2680</PrefetchSize>
+				</File>
+				<File Id="822966076" Language="SFX">
+					<ShortName>CZM_Mid_William_Tell.mid</ShortName>
+					<Path>SFX\CZM_Mid_William_Tell_00000000.wem</Path>
+				</File>
+				<File Id="829299222" Language="SFX">
+					<ShortName>CZM_Mid_Yankee_Doodle.mid</ShortName>
+					<Path>SFX\CZM_Mid_Yankee_Doodle_00000000.wem</Path>
+				</File>
+				<File Id="830382318" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_02_WM_0250B97E.wem</Path>
+					<PrefetchSize>2353</PrefetchSize>
+				</File>
+				<File Id="832364645" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_89D18633.wem</Path>
+					<PrefetchSize>2244</PrefetchSize>
+				</File>
+				<File Id="838567493" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_700D01D4.wem</Path>
+					<PrefetchSize>2735</PrefetchSize>
+				</File>
+				<File Id="842797044" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_03_WM_3FEF20CF.wem</Path>
+					<PrefetchSize>2317</PrefetchSize>
+				</File>
+				<File Id="845901247" Language="SFX">
+					<ShortName>CZM_Mid_Take_Me_Out_Ballgame.mid</ShortName>
+					<Path>SFX\CZM_Mid_Take_Me_Out_Ballgame_00000000.wem</Path>
+				</File>
+				<File Id="847240382" Language="SFX">
+					<ShortName>CZM_Mid_Pachebel_Canon.mid</ShortName>
+					<Path>SFX\CZM_Mid_Pachebel_Canon_00000000.wem</Path>
+				</File>
+				<File Id="867962065" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_02_WM_9CA29D10.wem</Path>
+					<PrefetchSize>2570</PrefetchSize>
+				</File>
+				<File Id="870302794" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C3_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C3_Vel2_02_WM_72278D98.wem</Path>
+					<PrefetchSize>2415</PrefetchSize>
+				</File>
+				<File Id="895876563" Language="SFX">
+					<ShortName>CZM_Mid_Itsy_Bitsy_Spider.mid</ShortName>
+					<Path>SFX\CZM_Mid_Itsy_Bitsy_Spider_00000000.wem</Path>
+				</File>
+				<File Id="903601845" Language="English(US)">
+					<ShortName>Robot_VO__Singing_B2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_B2_Vel2_02_WM_2B2563D5.wem</Path>
+					<PrefetchSize>3117</PrefetchSize>
+				</File>
+				<File Id="917175238" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C2_Vel2_02_WM_AEA6CDE8.wem</Path>
+					<PrefetchSize>2602</PrefetchSize>
+				</File>
+				<File Id="917262254" Language="SFX">
+					<ShortName>CZM_Mid_La_Paloma.mid</ShortName>
+					<Path>SFX\CZM_Mid_La_Paloma_00000000.wem</Path>
+				</File>
+				<File Id="917280422" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F#2_Vel2_01_WM_F50F15B1.wem</Path>
+					<PrefetchSize>2707</PrefetchSize>
+				</File>
+				<File Id="924828508" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_03_WM_7DD8D315.wem</Path>
+					<PrefetchSize>2747</PrefetchSize>
+				</File>
+				<File Id="929875403" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_01_WM_424D2C92.wem</Path>
+					<PrefetchSize>2357</PrefetchSize>
+				</File>
+				<File Id="932013557" Language="SFX">
+					<ShortName>CZM_Mid_Ta_Ra_Ra_Boom.mid</ShortName>
+					<Path>SFX\CZM_Mid_Ta_Ra_Ra_Boom_00000000.wem</Path>
+				</File>
+				<File Id="933648162" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A#2_Vel2_01_WM_60E09E30.wem</Path>
+					<PrefetchSize>2640</PrefetchSize>
+				</File>
+				<File Id="949611353" Language="SFX">
+					<ShortName>CZM_Mid_Tisket_Tasket.mid</ShortName>
+					<Path>SFX\CZM_Mid_Tisket_Tasket_00000000.wem</Path>
+				</File>
+				<File Id="957628707" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_03_WM_548D2CBB.wem</Path>
+					<PrefetchSize>2330</PrefetchSize>
+				</File>
+				<File Id="974538327" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_01_WM_3123FA28.wem</Path>
+					<PrefetchSize>2739</PrefetchSize>
+				</File>
+				<File Id="977280851" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_01_WM_9FE25441.wem</Path>
+					<PrefetchSize>2629</PrefetchSize>
+				</File>
+				<File Id="979554697" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_03_WM_2014D0A2.wem</Path>
+					<PrefetchSize>2332</PrefetchSize>
+				</File>
+				<File Id="981078971" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_01_WM_9D901C47.wem</Path>
+					<PrefetchSize>2282</PrefetchSize>
+				</File>
+				<File Id="997729011" Language="English(US)">
+					<ShortName>Robot_VO__Singing_A2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_A2_Vel2_02_WM_8353044B.wem</Path>
+					<PrefetchSize>2805</PrefetchSize>
+				</File>
+				<File Id="1009403048" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_02_WM_229DC352.wem</Path>
+					<PrefetchSize>2872</PrefetchSize>
+				</File>
+				<File Id="1013342711" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_F6D5C719.wem</Path>
+					<PrefetchSize>2986</PrefetchSize>
+				</File>
+				<File Id="1015167262" Language="English(US)">
+					<ShortName>Robot_VO__Singing_G2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_G2_Vel2_03_WM_664DEE0F.wem</Path>
+					<PrefetchSize>2685</PrefetchSize>
+				</File>
+				<File Id="1032045053" Language="English(US)">
+					<ShortName>Robot_VO__Singing_F2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_F2_Vel2_03_WM_B844467F.wem</Path>
+					<PrefetchSize>3015</PrefetchSize>
+				</File>
+				<File Id="1036586060" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_02_WM_D7E1966D.wem</Path>
+					<PrefetchSize>2299</PrefetchSize>
+				</File>
+				<File Id="1040868685" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D2_Vel2_03_WM_477B88A6.wem</Path>
+					<PrefetchSize>2866</PrefetchSize>
+				</File>
+				<File Id="1052368863" Language="SFX">
+					<ShortName>CZM_Mid_Vivaldi_Spring.mid</ShortName>
+					<Path>SFX\CZM_Mid_Vivaldi_Spring_00000000.wem</Path>
+				</File>
+				<File Id="1059192046" Language="English(US)">
+					<ShortName>Robot_VO__Singing_C#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_C#2_Vel2_03_WM_6AABCD15.wem</Path>
+					<PrefetchSize>2124</PrefetchSize>
+				</File>
+				<File Id="1060726593" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_01_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_01_WM_84E14492.wem</Path>
+					<PrefetchSize>2860</PrefetchSize>
+				</File>
+				<File Id="1063271033" Language="English(US)">
+					<ShortName>Robot_VO__Singing_E2_Vel2_02_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_E2_Vel2_02_WM_6217808F.wem</Path>
+					<PrefetchSize>2321</PrefetchSize>
+				</File>
+				<File Id="1065664274" Language="English(US)">
+					<ShortName>Robot_VO__Singing_D#2_Vel2_03_WM.wav</ShortName>
+					<Path>Voices\English(US)\Robot_VO__Singing_D#2_Vel2_03_WM_788C7F9B.wem</Path>
+					<PrefetchSize>2733</PrefetchSize>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

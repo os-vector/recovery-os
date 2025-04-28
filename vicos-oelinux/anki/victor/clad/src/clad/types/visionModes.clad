@@ -1,0 +1,36 @@
+/** Clad message definitions for the messages sent from the WiFi to the engine.
+ */
+
+
+namespace Anki {
+namespace Cozmo {
+
+  enum uint_32 VisionMode
+  {
+    Idle                   = 0x00,
+    DetectingMarkers,
+    DetectingFaces,
+    DetectingMotion,
+    DetectingOverheadEdges,
+    ReadingToolCode,
+    ComputingCalibration,
+    CheckingQuality,
+    CheckingWhiteBalance,
+    ComputingStatistics,
+    DetectingPets,
+    EstimatingFacialExpression,  // No effect if DetectingFaces not enabled
+    DetectingSmileAmount,        //  "
+    DetectingGaze,               //  "
+    DetectingBlinkAmount,        //  "
+    LimitedExposure,
+    DetectingLaserPoints,
+    BuildingOverheadMap,
+    DetectingVisualObstacles,
+    Benchmarking,
+    SavingImages,
+    DetectingGeneralObjects, // I.e. via Deep CNN / TensorFlow
+    Count
+  }
+      
+} // namespace Cozmo
+} // namespace Anki

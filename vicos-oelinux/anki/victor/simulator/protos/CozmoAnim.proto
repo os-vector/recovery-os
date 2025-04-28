@@ -1,0 +1,44 @@
+PROTO CozmoAnim [
+  field SFString name "CozmoAnim"
+  field SFInt32 robotID 0
+  
+  field SFVec3f translation 0 0 0
+  field SFRotation rotation 0 0 1 0
+  
+  field SFBool filterLogs FALSE
+  field SFBool colorizeStderrOutput FALSE
+]
+{
+Supervisor {
+  name IS name
+  translation IS translation
+  rotation IS rotation
+  controller "webotsCtrlAnim"
+
+  # append optional command line parameters
+  %{ ctrlArgs="" }%
+  %{ if fields.filterLogs.value then }%
+    %{ ctrlArgs = ctrlArgs .. " --applyLogFilter"}%
+  %{ end }%
+  %{ if fields.colorizeStderrOutput.value then }%
+    %{ ctrlArgs = ctrlArgs .. " --colorizeStderrOutput"}%
+  %{ end }%
+
+  controllerArgs "%{=ctrlArgs}%"
+
+  children [
+    CozmoFaceDisplay {
+      translation 0.012 0 0
+    }
+  ]
+  
+  boundingObject Box {
+    size 0.000001 0.000001 0.000001
+  }
+  physics Physics {
+    mass 0.00001
+    density -1
+  }
+
+} # Supervisor definition
+} # PROTO definition

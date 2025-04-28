@@ -1,0 +1,9 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: USB HAL
+Description: usbaudio hal library
+Version: "1.0.0"
+Libs: -L${libdir} audio.usb.default

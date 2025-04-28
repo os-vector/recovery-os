@@ -1,0 +1,4 @@
+# the scripts are capable of getting these
+/go
+/deps-cache
+/cmake

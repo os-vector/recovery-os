@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Chewie_iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\</ProjectRoot>
+		<SourceFilesRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\.cache\Chewie_iOS\</SourceFilesRoot>
+		<SoundBanksRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Chewie_iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\BuildAgent\work\ca416fb87b732fe7\trunk\VictorAudio\GeneratedSoundBanks\Chewie_iOS\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
